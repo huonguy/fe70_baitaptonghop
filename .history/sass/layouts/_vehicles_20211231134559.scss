@@ -1,0 +1,25 @@
+.vehicles {
+    .vehicles__container {
+        h1 {
+            text-align: center;
+            color: #06456a;
+            font : {
+                size: 60px;
+                weight: normal;
+            }
+        }
+        .vehical_nav {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            li {
+                font: {
+                    size: 14px;
+                    weight: 700;
+                }
+                margin-left: 24px;
+                margin-right: 24px;
+            }
+        }
+    }
+}

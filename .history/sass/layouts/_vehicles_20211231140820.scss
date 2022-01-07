@@ -1,0 +1,39 @@
+.vehicles {
+    .vehicles__container {
+        h1 {
+            text-align: center;
+            color: #06456a;
+            font : {
+                size: 60px;
+                weight: normal;
+            }
+        }
+        .vehical_nav {
+            margin-top: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            li {
+                font: {
+                    size: 14px;
+                    weight: 700;
+                }
+                margin-left: 24px;
+                margin-right: 24px;
+                color: #00324f;
+                cursor: pointer;
+                transition: all 0.4s;
+                &:hover {
+                    color: #007cc0;
+                }
+            }
+            .active {
+                border-bottom : {
+                    width: 5px;
+                    color: #00324f;
+                    style: solid;
+                }
+            }
+        }
+    }
+}

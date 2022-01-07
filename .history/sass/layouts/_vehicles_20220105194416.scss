@@ -1,0 +1,44 @@
+.vehicles {
+    .vehicles__container {
+        h1 {
+            text-align: center;
+            color: $primary-dark;
+            font : {
+                size: 60px;
+                weight: normal;
+            }
+        }
+        .vehical_nav {
+            margin-top: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            li {
+                font: {
+                    size: 14px;
+                    weight: 700;
+                }
+                margin-left: 24px;
+                margin-right: 24px;
+                color: $primary-dark;
+                cursor: pointer;
+                transition: all 0.4s;
+                &:hover {
+                    color: $primary-light;
+                }
+            }
+            .active {
+                color: $primary-light;
+                border-bottom : {
+                    width: 5px;
+                    color: $primary-light;
+                    style: solid;
+                }
+            }
+        }
+        img {
+            width: 100%;
+            height: 570px;
+        }
+    }
+}
