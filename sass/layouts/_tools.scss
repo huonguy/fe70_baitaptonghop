@@ -35,7 +35,7 @@
                 width: 100px;
                 height: 33px;
                 border-radius: 20px;
-                background-color: $primary-light;
+                background-color: $primary-main;
                 color: white;
                 margin: 0 auto;
                 border: none;
@@ -44,10 +44,10 @@
             }
             &:hover button {
                 background-color: white;
-                color: $primary-light;
+                color: $primary-main;
                 border: {
                     style: solid;
-                    color: $primary-light;
+                    color: $primary-main;
                     width: 2px;
                 }
             }

@@ -27,3 +27,7 @@ $XL: 1200px;
     }
   }
 }
+
+@mixin footerMenuMaxWidth(){
+  max-width: 180px;
+}
