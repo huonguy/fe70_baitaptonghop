@@ -1,10 +1,10 @@
 @import "./helpers/variable";
 
-@import "./components/button";
-
 @import "./base/reset";
 @import "./base/global";
 
 @import "./helpers/mixin";
+
+@import "./components/button";
 
 @import "./pages/home";

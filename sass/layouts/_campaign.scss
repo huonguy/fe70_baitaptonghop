@@ -1,0 +1,129 @@
+.campaign {
+  position: relative;
+
+  &__container {
+    background-image: url("/images/Homepage/Variable-Content/Background.gif");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-top: 20px;
+    height: auto;
+
+    @media only screen and (min-width: 768px) {
+      padding-left: 78px;
+      padding-right: 78px;
+    }
+
+    .campaign__list {
+      display: flex;
+      flex-direction: column;
+
+      @media only screen and (min-width: 768px) {
+        flex-direction: row;
+      }
+      align-items: center;
+
+      .campaign__item {
+        position: relative;
+        height: 370px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+
+        .campaign__info {
+          color: #fff;
+          h3 {
+            font-weight: bold;
+            font-size: 1.4rem;
+            line-height: 1.8rem;
+
+            @media only screen and (min-width: 768px) {
+              font-size: 1.6rem;
+            }
+          }
+
+          .explore-btn {
+            margin: 20px 0;
+          }
+
+          .campaign__text {
+            font-size: 1.2rem;
+            line-height: 1.6rem;
+
+            @media only screen and (min-width: 1024px) {
+              font-size: 1.4rem;
+              line-height: 1.8rem;
+            }
+          }
+        }
+
+        &:nth-child(1) {
+          margin-top: 15px;
+          margin-bottom: 15px;
+          background-image: url("/images/Vehicles/Civic-Si/MY22-Civic-Si-T3-320-2x.jpg");
+
+          @media only screen and (min-width: 576px) and (max-width: 767px) {
+            background-image: url("/images/Vehicles/Civic-Si/MY22-Civic-Si-T3-550-2x.jpg");
+          }
+
+          @media only screen and (min-width: 768px) and (max-width: 1023px) {
+            margin-right: 20px;
+            background-image: url("/images/Vehicles/Civic-Si/MY22-Civic-Si-T3-768-2x-A.jpg");
+          }
+
+          @media only screen and (min-width: 1024px) {
+            margin-right: 20px;
+            background-image: url("/images/Vehicles/Civic-Si/MY22-Civic-Si-T3-1024-2x.jpg");
+          }
+
+          .campaign__info {
+            position: absolute;
+            bottom: 0;
+            text-align: center;
+            width: 100%;
+          }
+        }
+        &:nth-child(2) {
+          margin-top: 15px;
+          margin-bottom: 15px;
+          background-image: url("/images/Vehicles/Ridgeline/MY22-ridgeline-non-vlp-flex-320-2x.jpg");
+
+          @media only screen and (min-width: 576px) and (max-width: 767px) {
+            background-image: url("/images/Vehicles/Ridgeline/MY22-ridgeline-non-vlp-flex-550-2x.jpg");
+          }
+
+          @media only screen and (min-width: 768px) and (max-width: 1023px) {
+            margin-left: 20px;
+            background-image: url("/images/Vehicles/Ridgeline/MY22-ridgeline-non-vlp-flex-768-2x.jpg");
+          }
+
+          @media only screen and (min-width: 1024px) {
+            margin-left: 20px;
+            background-image: url("/images/Vehicles/Ridgeline/MY22-ridgeline-non-vlp-flex-1024-2x.jpg");
+          }
+
+          .campaign__info {
+            position: absolute;
+            bottom: 0;
+            text-align: center;
+            width: 100%;
+
+            @media only screen and (min-width: 1024px) {
+              width: 45%;
+            }
+
+            @media only screen and (min-width: 768px) {
+              top: 30%;
+              text-align: left;
+              padding-left: 30px;
+            }
+
+            div {
+              padding-top: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

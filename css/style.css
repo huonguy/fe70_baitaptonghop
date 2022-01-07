@@ -1,22 +1,3 @@
-.button {
-  font-size: 1.2rem;
-  padding: 1.5rem 3rem;
-  font-weight: bold;
-  border-radius: 30px;
-  border: 2px solid #007cc0;
-  word-spacing: 2px;
-  color: white;
-  background-color: #007cc0;
-  text-align: center;
-  height: 35px;
-  line-height: 2px;
-}
-.button:hover {
-  background-color: transparent;
-  color: #007cc0;
-  border: 2px solid #007cc0;
-}
-
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -159,6 +140,7 @@ a {
 body {
   font-family: "AvenirNext-Regular", "HelveticaNeue", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   color: #00324f;
+  background-color: #f5f5f5;
 }
 
 html {
@@ -168,6 +150,793 @@ html {
 .wrapper {
   max-width: 1920px;
   margin: 0 auto;
+}
+
+.button {
+  font-size: 1.2rem;
+  padding: 1.5rem 3rem;
+  font-weight: bold;
+  border-radius: 30px;
+  border: 2px solid #007cc0;
+  word-spacing: 2px;
+  color: white;
+  background-color: #007cc0;
+  text-align: center;
+  height: 35px;
+  line-height: 2px;
+}
+.button:hover {
+  background-color: transparent;
+  color: #007cc0;
+  border: 2px solid #007cc0;
+}
+
+.default-btn {
+  border-radius: 2.5rem;
+  cursor: pointer;
+  padding: 0.75rem 1.3rem;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  font-weight: bold;
+  transition: all 0.5s;
+  border: 0.2rem solid #fff;
+}
+.default-btn:hover {
+  background-color: #fff;
+  border: 0.2rem solid #2198dc;
+  color: #2198dc;
+}
+
+.highlight-btn {
+  background-color: #2198dc;
+  border: 0.2rem solid #2198dc;
+}
+.highlight-btn:hover {
+  background-color: transparent;
+  border: 0.2rem solid #2198dc;
+  color: #2198dc;
+}
+
+.header {
+  background-color: #007cc0;
+  height: 48px;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+.header__container {
+  height: 100%;
+}
+.header__container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 1rem;
+}
+.header__container nav .navbar-brand svg {
+  fill: #fff;
+  height: 33px;
+  width: 49px;
+}
+.header__container nav .navbar-toggler {
+  border: none;
+}
+.header__container nav .navbar-toggler a {
+  align-items: center;
+  margin-right: 20px;
+  display: flex;
+}
+.header__container nav .navbar-toggler a i {
+  font-size: 2.4rem;
+  color: #fff;
+}
+.header__container nav .navbar-toggler button {
+  border: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  background: none;
+  outline: none;
+}
+.header__container nav .navbar-toggler button .navbar-toggler-bar {
+  background: #fff;
+  border-radius: 1.5px;
+  height: 3px;
+  top: 20%;
+  width: 30px;
+  position: absolute;
+}
+.header__container nav .navbar-toggler button .navbar-toggler-bar.top {
+  margin-top: 0;
+}
+.header__container nav .navbar-toggler button .navbar-toggler-bar.bottom {
+  margin-top: 8px;
+}
+.header__container nav .navbar-toggler button .navbar-toggler-text {
+  bottom: 6px;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+@media only screen and (max-width: 991.5px) {
+  .header__container nav .navbar-toggler {
+    display: inline-flex;
+  }
+}
+.header__container nav .navbar-collapse {
+  height: 100%;
+  justify-content: flex-end;
+}
+.header__container nav .navbar-collapse.collapse.show {
+  display: block !important;
+  background-color: #eee;
+  overflow-y: auto;
+  position: fixed;
+  top: 48px;
+  right: 0;
+  left: 0;
+  display: none;
+}
+.header__container nav .navbar-collapse .navbar-nav {
+  height: 100%;
+}
+.header__container nav .navbar-collapse .navbar-nav .nav-item a {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 14px 16px;
+  color: #00324f;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(180deg, #fff 50%, transparent 0);
+  background-position: 0 100%;
+  background-size: 200% 200%;
+  transition: background-position 0.2s ease, background-color 0.2s;
+}
+.header__container nav .navbar-collapse .navbar-nav .nav-item a .fa-chevron-down {
+  display: none;
+}
+@media only screen and (min-width: 992px) {
+  .header__container nav .navbar-collapse .navbar-nav .nav-item a {
+    color: #fff;
+    text-transform: capitalize;
+  }
+  .header__container nav .navbar-collapse .navbar-nav .nav-item a .fa-chevron-down {
+    display: block;
+  }
+  .header__container nav .navbar-collapse .navbar-nav .nav-item a .fa-chevron-right {
+    display: none;
+  }
+}
+.header__container nav .navbar-collapse .navbar-nav .nav-item a span {
+  font-size: 1.4rem;
+}
+.header__container nav .navbar-collapse .navbar-nav .nav-item a i {
+  font-size: 2rem;
+  margin-left: 4px;
+}
+.header__container nav .navbar-collapse .navbar-nav .nav-item a:hover {
+  color: #00446b;
+  background-position: 0 0;
+}
+.header__container nav .navbar-collapse .navbar-nav .nav-item.hide-item {
+  display: none;
+}
+.header__container nav .navbar-collapse .navbar-nav .nav-item.extra-item {
+  display: block;
+}
+@media only screen and (min-width: 992px) {
+  .header__container nav .navbar-collapse .navbar-nav .nav-item.hide-item {
+    display: block;
+  }
+  .header__container nav .navbar-collapse .navbar-nav .nav-item.extra-item {
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .header__container nav .navbar-collapse .navbar-nav .main-button {
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .header__container nav .navbar-collapse .navbar-nav .main-button a {
+    padding: 14px 30px;
+  }
+}
+.header__container nav .navbar-collapse .navbar-nav .main-button:nth-child(2) {
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.carousel {
+  padding-top: 45px;
+}
+.carousel .swiper {
+  overflow: hidden;
+  position: relative;
+}
+.carousel .swiper-wrapper {
+  height: auto;
+}
+.carousel .swiper-wrapper .swiper-slide .swiper-action {
+  text-align: center;
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  z-index: 1;
+}
+.carousel .swiper-wrapper .swiper-slide .swiper-action h5 {
+  color: #fff;
+  padding-bottom: 15px;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: bold;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .carousel .swiper-wrapper .swiper-slide .swiper-action h5 {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .carousel .swiper-wrapper .swiper-slide .swiper-action h5 {
+    font-size: 2rem;
+    line-height: 2.2rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .carousel .swiper-wrapper .swiper-slide .swiper-action h5 {
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+  }
+}
+.carousel .swiper-wrapper .swiper-slide .swiper-action span {
+  border-radius: 19px;
+  color: #fff;
+  display: inline-block;
+  font-size: 1.4rem;
+  line-height: normal;
+  padding: 10px 25px;
+  position: relative;
+  background-color: #e42525;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+  max-width: 255px;
+  width: 100%;
+}
+.carousel .swiper-wrapper .swiper-slide .swiper-action span::after {
+  content: "";
+  border: 2px solid #fff;
+  position: absolute;
+  border-radius: 19px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.carousel .swiper-wrapper .swiper-slide .swiper-action span:hover {
+  color: #e42525;
+  background-color: #fff;
+}
+@media only screen and (min-width: 768px) {
+  .carousel .swiper-wrapper .swiper-slide .swiper-action span {
+    width: auto;
+    max-width: none;
+  }
+}
+.carousel .swiper-wrapper .swiper-slide .swiper-disclaimer {
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  bottom: 6px;
+  z-index: 1;
+  right: 0;
+  left: 0;
+  max-width: 70%;
+  margin: 0 auto;
+}
+.carousel .swiper-wrapper .swiper-slide .swiper-pic {
+  position: relative;
+  min-height: 330px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .carousel .swiper-wrapper .swiper-slide .swiper-pic {
+    min-height: 400px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .carousel .swiper-wrapper .swiper-slide .swiper-pic {
+    min-height: 500px;
+  }
+}
+.carousel .swiper-wrapper .swiper-slide .swiper-pic img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.carousel .swiper-pagination {
+  bottom: 8px;
+  left: 10px;
+  width: auto;
+  line-height: 0;
+}
+.carousel .swiper-pagination-bullet {
+  height: 10px;
+  width: 10px;
+  background: #fff;
+  opacity: 0.25;
+}
+.carousel .swiper-pagination-bullet-active {
+  background: #2198dc;
+  opacity: 1;
+}
+@media only screen and (max-width: 576px) {
+  .carousel .swiper-pagination-bullet {
+    margin: 0 2px !important;
+  }
+}
+.carousel .swiper-button-prev, .carousel .swiper-button-next {
+  background: rgba(255, 255, 255, 0.9);
+  height: 80px;
+  opacity: 0.9;
+  width: 40px;
+  color: #00446b;
+  top: 40%;
+}
+.carousel .swiper-button-prev::after, .carousel .swiper-button-next::after {
+  font-size: 3rem;
+  font-weight: bold;
+}
+@media only screen and (max-width: 576px) {
+  .carousel .swiper-button-prev, .carousel .swiper-button-next {
+    height: 40px;
+    width: 25px;
+  }
+  .carousel .swiper-button-prev::after, .carousel .swiper-button-next::after {
+    font-size: 2rem;
+  }
+}
+.carousel .swiper-button-prev.swiper-button-disabled, .carousel .swiper-button-next.swiper-button-disabled {
+  display: none;
+}
+.carousel .swiper-button-prev {
+  border-radius: 0 5px 5px 0;
+  left: 0;
+}
+.carousel .swiper-button-next {
+  border-radius: 5px 0 0 5px;
+  left: auto;
+  right: 0;
+}
+.carousel .swiper .carousel-play {
+  cursor: pointer;
+  height: 60px;
+  position: absolute;
+  right: 30px;
+  width: 60px;
+  bottom: -10px;
+  z-index: 1;
+}
+.carousel .swiper .carousel-play .carousel-progress {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+.carousel .swiper .carousel-play .carousel-play-btn {
+  height: 20px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  width: 16px;
+  transform: translate(-50%, -50%);
+  background: none;
+  border: 0;
+  z-index: 3;
+}
+.carousel .swiper .carousel-play .carousel-play-btn svg {
+  height: 2rem;
+  width: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.carousel .swiper .carousel-play .carousel-controls-background {
+  background-color: rgba(0, 68, 107, 0.7);
+  border-radius: 50%;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+@media only screen and (max-width: 576px) {
+  .carousel .swiper .carousel-play {
+    transform: scale(0.5);
+    right: 0;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .carousel .swiper .carousel-play {
+    bottom: 8px;
+  }
+}
+
+.personalization {
+  background-color: #f6f6f6;
+}
+.personalization__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  padding-top: 20px;
+}
+@media only screen and (min-width: 1024px) {
+  .personalization__container {
+    flex-direction: row;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .personalization__container {
+    padding: 20px;
+  }
+}
+.personalization__container .personalization__header {
+  text-align: center;
+  padding: 0;
+}
+@media only screen and (min-width: 768px) {
+  .personalization__container .personalization__header {
+    padding: 0 20px 20px 30px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .personalization__container .personalization__header {
+    max-width: 50%;
+    width: 33%;
+    padding: 20px 0;
+    opacity: 0;
+    animation: fadeInUp 0.75s ease;
+    animation-delay: 0.75s;
+    animation-fill-mode: forwards;
+  }
+}
+.personalization__container .personalization__header h2 {
+  font-size: 42px;
+  color: #00324f;
+  margin-bottom: 5px;
+  letter-spacing: 0.01rem;
+  line-height: 6.4rem;
+}
+.personalization__container .personalization__header h3 {
+  font-size: 16px;
+  color: #00324f;
+  line-height: normal;
+}
+.personalization__container .personalization-card__list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: relative;
+  scroll-snap-type: x mandatory;
+}
+@media only screen and (min-width: 768px) {
+  .personalization__container .personalization-card__list {
+    justify-content: center;
+  }
+}
+.personalization__container .personalization-card__list .personalization-card__item {
+  width: 330px;
+  min-width: 330px;
+  max-width: 330px;
+  padding: 15px 20px;
+  box-sizing: content-box;
+  position: relative;
+  margin: 0;
+  scroll-snap-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .personalization__container .personalization-card__list .personalization-card__item {
+    max-width: 50%;
+    width: auto;
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .personalization__container .personalization-card__list .personalization-card__item {
+    max-width: 40%;
+    width: 40%;
+    opacity: 0;
+    animation: fadeInUp 0.75s ease;
+    animation-fill-mode: forwards;
+  }
+}
+.personalization__container .personalization-card__list .personalization-card__item .card__content {
+  background: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media only screen and (min-width: 768px) {
+  .personalization__container .personalization-card__list .personalization-card__item .card__content {
+    background: transparent;
+    box-shadow: none;
+  }
+}
+.personalization__container .personalization-card__list .personalization-card__item .card__content .card__info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+.personalization__container .personalization-card__list .personalization-card__item .card__content .card__info .card__img {
+  width: 45%;
+}
+@media only screen and (min-width: 768px) {
+  .personalization__container .personalization-card__list .personalization-card__item .card__content .card__info .card__img {
+    width: 55%;
+  }
+}
+.personalization__container .personalization-card__list .personalization-card__item .card__content .card__info .card__img img {
+  transform: scale(1.3);
+  width: 100%;
+}
+@media only screen and (min-width: 1024px) {
+  .personalization__container .personalization-card__list .personalization-card__item .card__content .card__info .card__img img {
+    width: 100%;
+    max-height: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .personalization__container .personalization-card__list .personalization-card__item .card__content .card__info .card__img img {
+    max-height: 105px;
+    width: auto;
+  }
+}
+.personalization__container .personalization-card__list .personalization-card__item .card__content .card__info .model-info__container .model-info {
+  line-height: 1.8rem;
+  margin-bottom: 5px;
+  font-size: 1.6rem;
+  font-style: italic;
+  font-weight: bold;
+  color: #00324f;
+}
+.personalization__container .personalization-card__list .personalization-card__item .card__content .card__info .model-info__container .cost-info {
+  line-height: 1.8rem;
+  font-size: 1.4rem;
+  color: #00324f;
+  white-space: nowrap;
+}
+.personalization__container .personalization-card__list .personalization-card__item .card__content .card__action {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+}
+.personalization__container .personalization-card__list .personalization-card__item .card__content .card__action a {
+  padding: 0.6rem 1.3rem;
+  color: #007cc0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 5px;
+  border-radius: 1.95rem;
+  display: inline-block;
+  line-height: normal;
+  text-align: center;
+  border: 2px solid #007cc0;
+  text-decoration: none;
+}
+.personalization__container .personalization-card__list .personalization-card__item .card__content .card__action a:nth-child(1) {
+  margin-right: 15px;
+}
+.personalization__container .personalization-card__list .personalization-card__item .card__content .card__action a:hover {
+  background-color: #007cc0;
+  color: #fff;
+}
+@media only screen and (min-width: 1024px) {
+  .personalization__container .personalization-card__list .personalization-card__item:first-of-type {
+    margin-right: 30px;
+    animation-delay: 1.25s;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .personalization__container .personalization-card__list .personalization-card__item:first-of-type {
+    margin-right: 20px;
+  }
+}
+.personalization__container .personalization-card__list .personalization-card__item:first-of-type::after {
+  content: "";
+  opacity: 0.8;
+  width: 1.4px;
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  right: -25px;
+  background-color: #c4c4c4;
+}
+.personalization__container .personalization-card__list .personalization-card__item:last-of-type {
+  padding-left: 0;
+}
+@media only screen and (min-width: 1024px) {
+  .personalization__container .personalization-card__list .personalization-card__item:last-of-type {
+    margin-left: 35px;
+    animation-delay: 1.5s;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .personalization__container .personalization-card__list .personalization-card__item:last-of-type {
+    margin-left: 25px;
+  }
+}
+.personalization__container .personalization-pagination {
+  display: block;
+  bottom: auto;
+  height: 4.5rem;
+  position: relative;
+  text-align: center;
+  background-color: #f6f6f6;
+}
+@media only screen and (min-width: 576px) {
+  .personalization__container .personalization-pagination {
+    display: none !important;
+  }
+}
+.personalization__container .personalization-pagination-bullet {
+  background: #c2c2c2;
+  height: 10px;
+  width: 10px;
+  opacity: 0.5;
+  display: inline-block;
+  border-radius: 100%;
+}
+.personalization__container .personalization-pagination-bullet.active {
+  background: #007cc0;
+  opacity: 1;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+.campaign {
+  position: relative;
+}
+.campaign__container {
+  background-image: url("/images/Homepage/Variable-Content/Background.gif");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding-top: 20px;
+  height: auto;
+}
+@media only screen and (min-width: 768px) {
+  .campaign__container {
+    padding-left: 78px;
+    padding-right: 78px;
+  }
+}
+.campaign__container .campaign__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media only screen and (min-width: 768px) {
+  .campaign__container .campaign__list {
+    flex-direction: row;
+  }
+}
+.campaign__container .campaign__list .campaign__item {
+  position: relative;
+  height: 370px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.campaign__container .campaign__list .campaign__item .campaign__info {
+  color: #fff;
+}
+.campaign__container .campaign__list .campaign__item .campaign__info h3 {
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+@media only screen and (min-width: 768px) {
+  .campaign__container .campaign__list .campaign__item .campaign__info h3 {
+    font-size: 1.6rem;
+  }
+}
+.campaign__container .campaign__list .campaign__item .campaign__info .explore-btn {
+  margin: 20px 0;
+}
+.campaign__container .campaign__list .campaign__item .campaign__info .campaign__text {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+@media only screen and (min-width: 1024px) {
+  .campaign__container .campaign__list .campaign__item .campaign__info .campaign__text {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+}
+.campaign__container .campaign__list .campaign__item:nth-child(1) {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-image: url("/images/Vehicles/Civic-Si/MY22-Civic-Si-T3-320-2x.jpg");
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .campaign__container .campaign__list .campaign__item:nth-child(1) {
+    background-image: url("/images/Vehicles/Civic-Si/MY22-Civic-Si-T3-550-2x.jpg");
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .campaign__container .campaign__list .campaign__item:nth-child(1) {
+    margin-right: 20px;
+    background-image: url("/images/Vehicles/Civic-Si/MY22-Civic-Si-T3-768-2x-A.jpg");
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .campaign__container .campaign__list .campaign__item:nth-child(1) {
+    margin-right: 20px;
+    background-image: url("/images/Vehicles/Civic-Si/MY22-Civic-Si-T3-1024-2x.jpg");
+  }
+}
+.campaign__container .campaign__list .campaign__item:nth-child(1) .campaign__info {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+.campaign__container .campaign__list .campaign__item:nth-child(2) {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-image: url("/images/Vehicles/Ridgeline/MY22-ridgeline-non-vlp-flex-320-2x.jpg");
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .campaign__container .campaign__list .campaign__item:nth-child(2) {
+    background-image: url("/images/Vehicles/Ridgeline/MY22-ridgeline-non-vlp-flex-550-2x.jpg");
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .campaign__container .campaign__list .campaign__item:nth-child(2) {
+    margin-left: 20px;
+    background-image: url("/images/Vehicles/Ridgeline/MY22-ridgeline-non-vlp-flex-768-2x.jpg");
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .campaign__container .campaign__list .campaign__item:nth-child(2) {
+    margin-left: 20px;
+    background-image: url("/images/Vehicles/Ridgeline/MY22-ridgeline-non-vlp-flex-1024-2x.jpg");
+  }
+}
+.campaign__container .campaign__list .campaign__item:nth-child(2) .campaign__info {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+@media only screen and (min-width: 1024px) {
+  .campaign__container .campaign__list .campaign__item:nth-child(2) .campaign__info {
+    width: 45%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .campaign__container .campaign__list .campaign__item:nth-child(2) .campaign__info {
+    top: 30%;
+    text-align: left;
+    padding-left: 30px;
+  }
+}
+.campaign__container .campaign__list .campaign__item:nth-child(2) .campaign__info div {
+  padding-top: 10px;
 }
 
 .discover-honda__container .discover-honda__title {
