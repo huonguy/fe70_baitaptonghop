@@ -939,6 +939,7 @@ html {
   padding-top: 10px;
 }
 
+<<<<<<< HEAD
 .vehicles .vehicles__container h1 {
   text-align: center;
   color: #00324f;
@@ -1044,6 +1045,8 @@ html {
   height: 100%;
 }
 
+=======
+>>>>>>> da28616c4b8288a738702a06f1b536c06ba82068
 .discover-honda__container .discover-honda__title {
   text-align: center;
 }
