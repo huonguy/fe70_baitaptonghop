@@ -373,7 +373,8 @@
           </div>
         </div>
       </section>
-      <section id="" class="personalization">
+
+      <section class="personalization">
         <div class="personalization__container">
           <div class="personalization__header">
             <h2>Continue Shopping</h2>
@@ -427,9 +428,15 @@
               </div>
             </div>
           </div>
-          <div class="personalization-pagination" style="display: block">
-            <span class="personalization-pagination-bullet active"></span>
-            <span class="personalization-pagination-bullet"></span>
+          <div class="personalization-pagination">
+            <span
+              id="personalization-pagination-prev"
+              class="personalization-pagination-bullet active"
+            ></span>
+            <span
+              id="personalization-pagination-next"
+              class="personalization-pagination-bullet"
+            ></span>
           </div>
         </div>
       </section>
@@ -871,6 +878,7 @@
         // Optional parameters
         direction: "horizontal",
         // loop: true,
+        autoplay: true,
 
         // If we need pagination
         pagination: {
@@ -895,6 +903,50 @@
     <script src="./libs/wowjs/wow.min.js"></script>
     <script>
       new WOW().init();
+    </script>
+
+    <script>
+      var sliderElement = document.querySelector(".personalization-card__list"),
+        sliderSlides = sliderElement.querySelectorAll(
+          ".personalization-card__item"
+        ).length,
+        currentSliderScrollPos = 0,
+        slideWidth = 200,
+        slideMaxWidth = sliderSlides * slideWidth;
+
+      $("#personalization-pagination-prev").click(function () {
+        // Calculate the new scroll position for the slider
+        var newSliderScrollPos = currentSliderScrollPos - slideWidth;
+
+        // If the new calculated scroll position exceedes the sliders maximum range ...
+        if (newSliderScrollPos < 0) {
+          // ... do nothing
+          return;
+        }
+
+        // Update the current slider scroll position
+        currentSliderScrollPos = newSliderScrollPos;
+
+        // Scroll to the previous slide
+        sliderElement.scrollTo(newSliderScrollPos, 0);
+      });
+
+      $("#personalization-pagination-next").click(function () {
+        // Calculate the new scroll position for the slider
+        var newSliderScrollPos = currentSliderScrollPos + slideWidth;
+
+        // If the new calculated scroll position exceedes the sliders maximum range ...
+        if (newSliderScrollPos >= slideMaxWidth) {
+          // ... do nothing
+          return;
+        }
+
+        // Update the current slider scroll position
+        currentSliderScrollPos = newSliderScrollPos;
+
+        // Scroll to the next slide
+        sliderElement.scrollTo(newSliderScrollPos, 0);
+      });
     </script>
 
     <!-- back-to-top -->
