@@ -1,386 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Official Honda Autos USA | Honda</title>
 
-    <!-- Boostrap 4.6 -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
-      crossorigin="anonymous"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Official Honda Autos USA | Honda</title>
 
-    <!-- Preload fonts -->
-    <link
-      rel="preload"
-      href="./fonts/2cd55546-ec00-4af9-aeca-4a3cd186da53.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
-    <link
-      rel="preload"
-      href="./fonts/aad99a1f-7917-4dd6-bbb5-b07cedbff64f.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
-    <link
-      rel="preload"
-      href="./fonts/aad99a1f-7917-4dd6-bbb5-b07cedbff64f.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
+  <!-- Boostrap 4.6 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
 
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
+  <!-- Preload fonts -->
+  <link rel="preload" href="./fonts/2cd55546-ec00-4af9-aeca-4a3cd186da53.woff2" as="font" type="font/woff2"
+    crossorigin />
+  <link rel="preload" href="./fonts/aad99a1f-7917-4dd6-bbb5-b07cedbff64f.woff2" as="font" type="font/woff2"
+    crossorigin />
+  <link rel="preload" href="./fonts/aad99a1f-7917-4dd6-bbb5-b07cedbff64f.woff2" as="font" type="font/woff2"
+    crossorigin />
 
-    <!-- Swiper -->
-    <link rel="stylesheet" href="./libs/swiper/swiper.min.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
-    <!-- Wow -->
-    <link rel="stylesheet" href="./libs/wowjs/animate.css" />
+  <!-- Swiper -->
+  <link rel="stylesheet" href="./libs/swiper/swiper.min.css" />
 
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
+  <!-- Wow -->
+  <link rel="stylesheet" href="./libs/wowjs/animate.css" />
 
-  <body>
-    <div class="wrapper">
-      <header class="header">
-        <div class="header__container">
-          <nav class="navbar navbar-expand-lg navbar-dark">
-            <!-- Brand -->
-            <a class="navbar-brand" href="#">
-              <svg id="Header_Honda_Logo-x" role="presentation">
-                <title>Visit Honda Automobiles homepage</title>
-                <use
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  xlink:href="#Header_Honda_Logo"
-                ></use>
-              </svg>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <!-- Brand -->
+          <a class="navbar-brand" href="#">
+            <svg id="Header_Honda_Logo-x" role="presentation">
+              <title>Visit Honda Automobiles homepage</title>
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#Header_Honda_Logo"></use>
+            </svg>
+          </a>
+
+          <!-- Toggler/collapsibe Button -->
+          <div class="navbar-toggler">
+            <a href="#">
+              <i class="fas fa-map-marker-alt"></i>
             </a>
+            <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <!-- <span class="navbar-toggler-icon"></span> -->
+              <span class="navbar-toggler-bar top"></span>
+              <span class="navbar-toggler-bar bottom"></span>
+              <span class="navbar-toggler-text">Menu</span>
+            </button>
+          </div>
 
-            <!-- Toggler/collapsibe Button -->
-            <div class="navbar-toggler">
-              <a href="#">
-                <i class="fas fa-map-marker-alt"></i>
-              </a>
-              <button
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <!-- <span class="navbar-toggler-icon"></span> -->
-                <span class="navbar-toggler-bar top"></span>
-                <span class="navbar-toggler-bar bottom"></span>
-                <span class="navbar-toggler-text">Menu</span>
-              </button>
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item main-button">
+                <a class="nav-link" href="#">
+                  <span>VEHICLES</span>
+                  <i class="fas fa-chevron-down"></i>
+                  <i class="fas fa-chevron-right"></i>
+                </a>
+              </li>
+              <li class="nav-item main-button">
+                <a class="nav-link" href="#">
+                  <span>SHOPPING TOOLS</span>
+                  <i class="fas fa-chevron-down"></i>
+                  <i class="fas fa-chevron-right"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span>Owners</span>
+                  <i class="fas fa-chevron-down"></i>
+                  <i class="fas fa-chevron-right"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span>Explore</span>
+                  <i class="fas fa-chevron-down"></i>
+                  <i class="fas fa-chevron-right"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span>Find a Dealer</span>
+                </a>
+              </li>
+              <li class="nav-item hide-item">
+                <a class="nav-link" href="#">
+                  <span>Español</span>
+                </a>
+              </li>
+              <li class="nav-item hide-item">
+                <a class="nav-link" href="#">
+                  <span>Location</span>
+                  <i class="fas fa-map-marker-alt"></i>
+                </a>
+              </li>
+              <li class="nav-item extra-item">
+                <a class="nav-link" href="#">
+                  <span>Language</span>
+                  <div>
+                    <button class="button">English</button>
+                    <button class="button">Español</button>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item extra-item">
+                <form id="search-bar-form" class="nested-button" role="search" action="/search">
+                  <input type="text" name="s" placeholder="Search for anything Honda" />
+                  <i class="fas fa-search"></i>
+                  <!-- <button class="m_cta is-on-dark is-primary">GO</button> -->
+                </form>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section class="carousel">
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="swiper-action">
+              <h5>Fully equipped for adventure.</h5>
+              <span>EXPLORE</span>
             </div>
-
-            <!-- Navbar links -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav">
-                <li class="nav-item main-button">
-                  <a class="nav-link" href="#">
-                    <span>VEHICLES</span>
-                    <i class="fas fa-chevron-down"></i>
-                    <i class="fas fa-chevron-right"></i>
-                  </a>
-                </li>
-                <li class="nav-item main-button">
-                  <a class="nav-link" href="#">
-                    <span>SHOPPING TOOLS</span>
-                    <i class="fas fa-chevron-down"></i>
-                    <i class="fas fa-chevron-right"></i>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <span>Owners</span>
-                    <i class="fas fa-chevron-down"></i>
-                    <i class="fas fa-chevron-right"></i>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <span>Explore</span>
-                    <i class="fas fa-chevron-down"></i>
-                    <i class="fas fa-chevron-right"></i>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <span>Find a Dealer</span>
-                  </a>
-                </li>
-                <li class="nav-item hide-item">
-                  <a class="nav-link" href="#">
-                    <span>Español</span>
-                  </a>
-                </li>
-                <li class="nav-item hide-item">
-                  <a class="nav-link" href="#">
-                    <span>Location</span>
-                    <i class="fas fa-map-marker-alt"></i>
-                  </a>
-                </li>
-                <li class="nav-item extra-item">
-                  <a class="nav-link" href="#">
-                    <span>Language</span>
-                    <div>
-                      <button class="button">English</button>
-                      <button class="button">Español</button>
-                    </div>
-                  </a>
-                </li>
-                <li class="nav-item extra-item">
-                  <form
-                    id="search-bar-form"
-                    class="nested-button"
-                    role="search"
-                    action="/search"
-                  >
-                    <input
-                      type="text"
-                      name="s"
-                      placeholder="Search for anything Honda"
-                    />
-                    <i class="fas fa-search"></i>
-                    <!-- <button class="m_cta is-on-dark is-primary">GO</button> -->
-                  </form>
-                </li>
-              </ul>
+            <div class="swiper-disclaimer">
+              <p>
+                TrailSport with AWD shown in Radiant Red Metallic
+                Ifa-inverse<a href="#">*</a> with Honda Genuine Accessories.
+              </p>
             </div>
-          </nav>
-        </div>
-      </header>
-      <section class="carousel">
-        <!-- Slider main container -->
-        <div class="swiper">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">
-              <div class="swiper-action">
-                <h5>Fully equipped for adventure.</h5>
-                <span>EXPLORE</span>
-              </div>
-              <div class="swiper-disclaimer">
-                <p>
-                  TrailSport with AWD shown in Radiant Red Metallic
-                  Ifa-inverse<a href="#">*</a> with Honda Genuine Accessories.
-                </p>
-              </div>
-              <div class="swiper-pic">
-                <picture>
-                  <source
-                    media="(min-width: 1025px)"
-                    srcset="
+            <div class="swiper-pic">
+              <picture>
+                <source media="(min-width: 1025px)" srcset="
                       ./images/Vehicles/Passport/MY22-Passport-Hompage-Hero-1024-2x.jpg 1x,
                       ./images/Vehicles/Passport/MY22-Passport-Hompage-Hero-1024-2x.jpg 2x
-                    "
-                  />
-                  <source
-                    media="(min-width: 768px)"
-                    srcset="
+                    " />
+                <source media="(min-width: 768px)" srcset="
                       ./images/Vehicles/Passport/MY22-Passport-Hompage-Hero-768-2x.jpg 1x,
                       ./images/Vehicles/Passport/MY22-Passport-Hompage-Hero-768-2x.jpg 2x
-                    "
-                  />
-                  <source
-                    media="(min-width: 550px)"
-                    srcset="
+                    " />
+                <source media="(min-width: 550px)" srcset="
                       ./images/Vehicles/Passport/MY22-Passport-Hompage-Hero-550-2x-A.jpg 1x,
                       ./images/Vehicles/Passport/MY22-Passport-Hompage-Hero-550-2x-A.jpg 2x
-                    "
-                  />
-                  <source
-                    media="(min-width: 320px)"
-                    srcset="
+                    " />
+                <source media="(min-width: 320px)" srcset="
                       ./images/Vehicles/Passport/MY22-Passport-Hompage-Hero-320-2x-B.jpg 1x,
                       ./images/Vehicles/Passport/MY22-Passport-Hompage-Hero-320-2x-B.jpg 2x
-                    "
-                  />
-                  <img
-                    srcset="
+                    " />
+                <img srcset="
                       ./images/Vehicles/Passport/MY22-Passport-Hompage-Hero-320-2x-B.jpg 1x
-                    "
-                    src="./images/Vehicles/Passport/MY22-Passport-Hompage-Hero-320-2x-B.jpg 2x"
-                    alt="Front passenger-side three-quarter view of the 2022 Honda Passport TrailSport in Radiant Red Metallic II with accessory crossbars and ski/snowboard attachment, driving over a snow-covered road in a wilderness environment."
-                  />
-                </picture>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="swiper-action">
-                <h5>Making the road to recovery a little brighter.</h5>
-                <span>WATCH VIDEO</span>
-              </div>
-              <div class="swiper-pic">
-                <picture>
-                  <source
-                    media="(min-width: 1025px)"
-                    srcset="
-                      ./images/Promos/Homepage-Hero/project-courage-homepage-hero-1024-2x.jpg 1x,
-                      ./images/Promos/Homepage-Hero/project-courage-homepage-hero-1024-2x.jpg 2x
-                    "
-                  />
-                  <source
-                    media="(min-width: 768px)"
-                    srcset="
-                      ./images/Promos/Homepage-Hero/project-courage-homepage-hero-768-2x.jpg 1x,
-                      ./images/Promos/Homepage-Hero/project-courage-homepage-hero-768-2x.jpg 2x
-                    "
-                  />
-                  <source
-                    media="(min-width: 550px)"
-                    srcset="
-                      ./images/Promos/Homepage-Hero/project-courage-homepage-hero-550-2x-A.jpg 1x,
-                      ./images/Promos/Homepage-Hero/project-courage-homepage-hero-550-2x-A.jpg 2x
-                    "
-                  />
-                  <source
-                    media="(min-width: 320px)"
-                    srcset="
-                      ./images/Promos/Homepage-Hero/project-courage-homepage-hero-320-1x-A.jpg 1x,
-                      ./images/Promos/Homepage-Hero/project-courage-homepage-hero-320-1x-A.jpg 2x
-                    "
-                  />
-                  <img
-                    srcset="
-                      ./images/Promos/Homepage-Hero/project-courage-homepage-hero-1024-2x.jpg 1x
-                    "
-                    src="./images/Promos/Homepage-Hero/project-courage-homepage-hero-1024-2x.jpg 2x"
-                    alt="Front passenger-side three-quarter view of the 2022 Honda Passport TrailSport in Radiant Red Metallic II with accessory crossbars and ski/snowboard attachment, driving over a snow-covered road in a wilderness environment."
-                  />
-                </picture>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="swiper-action">
-                <h5>Honda’s Max Verstappen wins 2021 F1 World Championship.</h5>
-                <span>LEARN MORE</span>
-              </div>
-              <div class="swiper-pic">
-                <picture>
-                  <source
-                    media="(min-width: 1025px)"
-                    srcset="
-                      ./images/Homepage/Hero/F1-World-Championship/F1-world-championship--homepage-hero-1024-2x.jpg 1x,
-                      ./images/Homepage/Hero/F1-World-Championship/F1-world-championship--homepage-hero-1024-2x.jpg 2x
-                    "
-                  />
-                  <source
-                    media="(min-width: 768px)"
-                    srcset="
-                      ./images/Homepage/Hero/F1-World-Championship/F1-world-championship--homepage-hero-768-2x.jpg 1x,
-                      ./images/Homepage/Hero/F1-World-Championship/F1-world-championship--homepage-hero-768-2x.jpg 2x
-                    "
-                  />
-                  <source
-                    media="(min-width: 550px)"
-                    srcset="
-                      ./images/Homepage/Hero/F1-World-Championship/F1-world-championship--homepage-hero-550-2x-A.jpg 1x,
-                      ./images/Homepage/Hero/F1-World-Championship/F1-world-championship--homepage-hero-550-2x-A.jpg 2x
-                    "
-                  />
-                  <source
-                    media="(min-width: 320px)"
-                    srcset="
-                      ./images/Homepage/Hero/F1-World-Championship/F1-world-championship--homepage-hero-320-1x.jpg 1x,
-                      ./images/Homepage/Hero/F1-World-Championship/F1-world-championship--homepage-hero-320-1x.jpg 2x
-                    "
-                  />
-                  <img
-                    srcset="
-                      ./images/Homepage/Hero/F1-World-Championship/F1-world-championship--homepage-hero-1024-2x.jpg 1x
-                    "
-                    src="./images/Homepage/Hero/F1-World-Championship/F1-world-championship--homepage-hero-1024-2x.jpg 2x"
-                    alt="Front passenger-side three-quarter view of the 2022 Honda Passport TrailSport in Radiant Red Metallic II with accessory crossbars and ski/snowboard attachment, driving over a snow-covered road in a wilderness environment."
-                  />
-                </picture>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="swiper-action">
-                <span>WATCH VIDEO</span>
-              </div>
-              <div class="swiper-pic">
-                <picture>
-                  <source
-                    media="(min-width: 1025px)"
-                    srcset="
-                      ./images/Homepage/Hero/Brand-Spot-Web-Support/2021-Honda-Brand-Spot-Still-Homepage-Hero-1024-2x.jpg 1x,
-                      ./images/Homepage/Hero/Brand-Spot-Web-Support/2021-Honda-Brand-Spot-Still-Homepage-Hero-1024-2x.jpg 2x
-                    "
-                  />
-                  <source
-                    media="(min-width: 768px)"
-                    srcset="
-                      ./images/Homepage/Hero/Brand-Spot-Web-Support/2021-Honda-Brand-Spot-Still-Homepage-Hero-768-2x.jpg 1x,
-                      ./images/Homepage/Hero/Brand-Spot-Web-Support/2021-Honda-Brand-Spot-Still-Homepage-Hero-768-2x.jpg 2x
-                    "
-                  />
-                  <source
-                    media="(min-width: 550px)"
-                    srcset="
-                      ./images/Homepage/Hero/Brand-Spot-Web-Support/2021-Honda-Brand-Spot-Still-Homepage-Hero-550-2x.jpg 1x,
-                      ./images/Homepage/Hero/Brand-Spot-Web-Support/2021-Honda-Brand-Spot-Still-Homepage-Hero-550-2x.jpg 2x
-                    "
-                  />
-                  <source
-                    media="(min-width: 320px)"
-                    srcset="
-                      ./images/Homepage/Hero/Brand-Spot-Web-Support/2021-Honda-Brand-Spot-Still-Homepage-Hero-320-2x-A.jpg 1x,
-                      ./images/Homepage/Hero/Brand-Spot-Web-Support/2021-Honda-Brand-Spot-Still-Homepage-Hero-320-2x-A.jpg 2x
-                    "
-                  />
-                  <img
-                    srcset="
-                      ./images/Homepage/Hero/Brand-Spot-Web-Support/2021-Honda-Brand-Spot-Still-Homepage-Hero-1024-2x.jpg 1x
-                    "
-                    src="./images/Homepage/Hero/Brand-Spot-Web-Support/2021-Honda-Brand-Spot-Still-Homepage-Hero-1024-2x.jpg 2x"
-                    alt="Front passenger-side three-quarter view of the 2022 Honda Passport TrailSport in Radiant Red Metallic II with accessory crossbars and ski/snowboard attachment, driving over a snow-covered road in a wilderness environment."
-                  />
-                </picture>
-              </div>
+                    " src="./images/Vehicles/Passport/MY22-Passport-Hompage-Hero-320-2x-B.jpg 2x"
+                  alt="Front passenger-side three-quarter view of the 2022 Honda Passport TrailSport in Radiant Red Metallic II with accessory crossbars and ski/snowboard attachment, driving over a snow-covered road in a wilderness environment." />
+              </picture>
             </div>
           </div>
-          <!-- If we need pagination -->
-          <div class="swiper-pagination"></div>
-
-          <!-- If we need navigation buttons -->
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-
-          <!-- If we need scrollbar -->
-          <!-- <div class="swiper-scrollbar"></div> -->
-
-          <!-- Cycle Time controls -->
-          <div class="carousel-play">
-            <!-- <div class="carousel-click-spot" data-track="rotate-play-pause"></div> -->
-            <div class="carousel-progress">
-              <canvas width="50" height="50"></canvas>
+          <div class="swiper-slide">
+            <div class="swiper-action">
+              <h5>Making the road to recovery a little brighter.</h5>
+              <span>WATCH VIDEO</span>
             </div>
-            <button class="carousel-play-btn">
-              <svg>
-                <use
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  xlink:href="#hero-controls-play"
-                ></use>
-              </svg>
-            </button>
-            <!-- <button class="carousel-pause-btn hide">
+            <div class="swiper-pic">
+              <picture>
+                <source media="(min-width: 1025px)" srcset="
+                      ./images/Promos/Homepage-Hero/project-courage-homepage-hero-1024-2x.jpg 1x,
+                      ./images/Promos/Homepage-Hero/project-courage-homepage-hero-1024-2x.jpg 2x
+                    " />
+                <source media="(min-width: 768px)" srcset="
+                      ./images/Promos/Homepage-Hero/project-courage-homepage-hero-768-2x.jpg 1x,
+                      ./images/Promos/Homepage-Hero/project-courage-homepage-hero-768-2x.jpg 2x
+                    " />
+                <source media="(min-width: 550px)" srcset="
+                      ./images/Promos/Homepage-Hero/project-courage-homepage-hero-550-2x-A.jpg 1x,
+                      ./images/Promos/Homepage-Hero/project-courage-homepage-hero-550-2x-A.jpg 2x
+                    " />
+                <source media="(min-width: 320px)" srcset="
+                      ./images/Promos/Homepage-Hero/project-courage-homepage-hero-320-1x-A.jpg 1x,
+                      ./images/Promos/Homepage-Hero/project-courage-homepage-hero-320-1x-A.jpg 2x
+                    " />
+                <img srcset="
+                      ./images/Promos/Homepage-Hero/project-courage-homepage-hero-1024-2x.jpg 1x
+                    " src="./images/Promos/Homepage-Hero/project-courage-homepage-hero-1024-2x.jpg 2x"
+                  alt="Front passenger-side three-quarter view of the 2022 Honda Passport TrailSport in Radiant Red Metallic II with accessory crossbars and ski/snowboard attachment, driving over a snow-covered road in a wilderness environment." />
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-action">
+              <h5>Honda’s Max Verstappen wins 2021 F1 World Championship.</h5>
+              <span>LEARN MORE</span>
+            </div>
+            <div class="swiper-pic">
+              <picture>
+                <source media="(min-width: 1025px)" srcset="
+                      ./images/Homepage/Hero/F1-World-Championship/F1-world-championship--homepage-hero-1024-2x.jpg 1x,
+                      ./images/Homepage/Hero/F1-World-Championship/F1-world-championship--homepage-hero-1024-2x.jpg 2x
+                    " />
+                <source media="(min-width: 768px)" srcset="
+                      ./images/Homepage/Hero/F1-World-Championship/F1-world-championship--homepage-hero-768-2x.jpg 1x,
+                      ./images/Homepage/Hero/F1-World-Championship/F1-world-championship--homepage-hero-768-2x.jpg 2x
+                    " />
+                <source media="(min-width: 550px)" srcset="
+                      ./images/Homepage/Hero/F1-World-Championship/F1-world-championship--homepage-hero-550-2x-A.jpg 1x,
+                      ./images/Homepage/Hero/F1-World-Championship/F1-world-championship--homepage-hero-550-2x-A.jpg 2x
+                    " />
+                <source media="(min-width: 320px)" srcset="
+                      ./images/Homepage/Hero/F1-World-Championship/F1-world-championship--homepage-hero-320-1x.jpg 1x,
+                      ./images/Homepage/Hero/F1-World-Championship/F1-world-championship--homepage-hero-320-1x.jpg 2x
+                    " />
+                <img srcset="
+                      ./images/Homepage/Hero/F1-World-Championship/F1-world-championship--homepage-hero-1024-2x.jpg 1x
+                    "
+                  src="./images/Homepage/Hero/F1-World-Championship/F1-world-championship--homepage-hero-1024-2x.jpg 2x"
+                  alt="Front passenger-side three-quarter view of the 2022 Honda Passport TrailSport in Radiant Red Metallic II with accessory crossbars and ski/snowboard attachment, driving over a snow-covered road in a wilderness environment." />
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-action">
+              <span>WATCH VIDEO</span>
+            </div>
+            <div class="swiper-pic">
+              <picture>
+                <source media="(min-width: 1025px)" srcset="
+                      ./images/Homepage/Hero/Brand-Spot-Web-Support/2021-Honda-Brand-Spot-Still-Homepage-Hero-1024-2x.jpg 1x,
+                      ./images/Homepage/Hero/Brand-Spot-Web-Support/2021-Honda-Brand-Spot-Still-Homepage-Hero-1024-2x.jpg 2x
+                    " />
+                <source media="(min-width: 768px)" srcset="
+                      ./images/Homepage/Hero/Brand-Spot-Web-Support/2021-Honda-Brand-Spot-Still-Homepage-Hero-768-2x.jpg 1x,
+                      ./images/Homepage/Hero/Brand-Spot-Web-Support/2021-Honda-Brand-Spot-Still-Homepage-Hero-768-2x.jpg 2x
+                    " />
+                <source media="(min-width: 550px)" srcset="
+                      ./images/Homepage/Hero/Brand-Spot-Web-Support/2021-Honda-Brand-Spot-Still-Homepage-Hero-550-2x.jpg 1x,
+                      ./images/Homepage/Hero/Brand-Spot-Web-Support/2021-Honda-Brand-Spot-Still-Homepage-Hero-550-2x.jpg 2x
+                    " />
+                <source media="(min-width: 320px)" srcset="
+                      ./images/Homepage/Hero/Brand-Spot-Web-Support/2021-Honda-Brand-Spot-Still-Homepage-Hero-320-2x-A.jpg 1x,
+                      ./images/Homepage/Hero/Brand-Spot-Web-Support/2021-Honda-Brand-Spot-Still-Homepage-Hero-320-2x-A.jpg 2x
+                    " />
+                <img srcset="
+                      ./images/Homepage/Hero/Brand-Spot-Web-Support/2021-Honda-Brand-Spot-Still-Homepage-Hero-1024-2x.jpg 1x
+                    "
+                  src="./images/Homepage/Hero/Brand-Spot-Web-Support/2021-Honda-Brand-Spot-Still-Homepage-Hero-1024-2x.jpg 2x"
+                  alt="Front passenger-side three-quarter view of the 2022 Honda Passport TrailSport in Radiant Red Metallic II with accessory crossbars and ski/snowboard attachment, driving over a snow-covered road in a wilderness environment." />
+              </picture>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+
+        <!-- Cycle Time controls -->
+        <div class="carousel-play">
+          <!-- <div class="carousel-click-spot" data-track="rotate-play-pause"></div> -->
+          <div class="carousel-progress">
+            <canvas width="50" height="50"></canvas>
+          </div>
+          <button class="carousel-play-btn">
+            <svg>
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#hero-controls-play"></use>
+            </svg>
+          </button>
+          <!-- <button class="carousel-pause-btn hide">
                   <svg>
                     <use
                       xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -388,685 +289,559 @@
                     ></use>
                   </svg>
                 </button> -->
-            <div class="carousel-controls-background"></div>
-          </div>
+          <div class="carousel-controls-background"></div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="personalization">
-        <div class="personalization__container">
-          <div class="personalization__header">
-            <h2>Continue Shopping</h2>
-            <h3>Pick up where you left off.</h3>
-          </div>
-          <div class="personalization-card__list">
-            <div class="personalization-card__item">
-              <div class="card__content">
-                <div class="card__info">
-                  <div class="card__img">
-                    <a href="#">
-                      <img src="./images/exterior/03.png" alt="" />
-                    </a>
-                  </div>
-                  <div class="model-info__container">
-                    <div class="model-info">
-                      <span>2022 Accord</span>
-                    </div>
-                    <div class="cost-info">
-                      <span>$26,120 Starting MSRP<a href="#">*</a></span>
-                    </div>
-                  </div>
+    <section class="personalization">
+      <div class="personalization__container">
+        <div class="personalization__header">
+          <h2>Continue Shopping</h2>
+          <h3>Pick up where you left off.</h3>
+        </div>
+        <div class="personalization-card__list">
+          <div class="personalization-card__item">
+            <div class="card__content">
+              <div class="card__info">
+                <div class="card__img">
+                  <a href="#">
+                    <img src="./images/exterior/03.png" alt="" />
+                  </a>
                 </div>
-                <div class="card__action">
-                  <a class="button" href="#">EXPLORE</a>
-                  <a class="button" href="#">BUILD</a>
+                <div class="model-info__container">
+                  <div class="model-info">
+                    <span>2022 Accord</span>
+                  </div>
+                  <div class="cost-info">
+                    <span>$26,120 Starting MSRP<a href="#">*</a></span>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="personalization-card__item">
-              <div class="card__content">
-                <div class="card__info">
-                  <div class="card__img">
-                    <a href="#">
-                      <img src="./images/exterior/02.png" alt="" />
-                    </a>
-                  </div>
-                  <div class="model-info__container">
-                    <div class="model-info">
-                      <span>2022 Passport</span>
-                    </div>
-                    <div class="cost-info">
-                      <span>$37,870 Starting MSRP<a href="#">*</a></span>
-                    </div>
-                  </div>
-                </div>
-                <div class="card__action">
-                  <a class="button" href="#">EXPLORE</a>
-                  <a class="button" href="#">BUILD</a>
-                </div>
+              <div class="card__action">
+                <a class="button" href="#">EXPLORE</a>
+                <a class="button" href="#">BUILD</a>
               </div>
             </div>
           </div>
-          <div class="personalization-pagination">
-            <span
-              id="personalization-pagination-prev"
-              class="personalization-pagination-bullet active"
-            ></span>
-            <span
-              id="personalization-pagination-next"
-              class="personalization-pagination-bullet"
-            ></span>
+          <div class="personalization-card__item">
+            <div class="card__content">
+              <div class="card__info">
+                <div class="card__img">
+                  <a href="#">
+                    <img src="./images/exterior/02.png" alt="" />
+                  </a>
+                </div>
+                <div class="model-info__container">
+                  <div class="model-info">
+                    <span>2022 Passport</span>
+                  </div>
+                  <div class="cost-info">
+                    <span>$37,870 Starting MSRP<a href="#">*</a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="card__action">
+                <a class="button" href="#">EXPLORE</a>
+                <a class="button" href="#">BUILD</a>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
-      <section class="campaign">
-        <div class="campaign__container">
-          <!-- TODO-3 -->
-          <div class="campaign__list">
-            <div class="campaign__item wow fadeInUp" data-wow-duration="2s">
-              <div class="campaign__info">
-                <h3>The 2022 Civic Si is here.</h3>
-                <div class="explore-btn">
-                  <span class="button">EXPLORE</span>
-                </div>
-                <span class="campaign__text"
-                  >Shown in Crystal Black Pearl.</span
-                >
+        <div class="personalization-pagination">
+          <span id="personalization-pagination-prev" class="personalization-pagination-bullet active"></span>
+          <span id="personalization-pagination-next" class="personalization-pagination-bullet"></span>
+        </div>
+      </div>
+    </section>
+    <section class="campaign">
+      <div class="campaign__container">
+        <!-- TODO-3 -->
+        <div class="campaign__list">
+          <div class="campaign__item wow fadeInUp" data-wow-duration="2s">
+            <div class="campaign__info">
+              <h3>The 2022 Civic Si is here.</h3>
+              <div class="explore-btn">
+                <span class="button">EXPLORE</span>
+              </div>
+              <span class="campaign__text">Shown in Crystal Black Pearl.</span>
+            </div>
+          </div>
+          <div class="campaign__item wow fadeInUp" data-wow-duration="2.1s" data-wow-delay=".1s">
+            <div class="campaign__info">
+              <h3>2022 Ridgeline</h3>
+              <div>
+                <span class="campaign__text">
+                  Adventure awaits in the Ridgeline.
+                </span>
+              </div>
+              <div class="explore-btn">
+                <span class="button">EXPLORE</span>
               </div>
             </div>
-            <div
-              class="campaign__item wow fadeInUp"
-              data-wow-duration="2.1s"
-              data-wow-delay=".1s"
-            >
-              <div class="campaign__info">
-                <h3>2022 Ridgeline</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="vehicles">
+      <div class="vehicles__container">
+        <h1>Our Vehicles</h1>
+        <ul class="vehical_nav nav nav-pills options">
+          <li>
+            <a class="nav-link active" data-toggle="pill" href="#menu1">
+              CARS
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" data-toggle="pill" href="#menu2">
+              SUVS & CROSSOVERS
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" data-toggle="pill" href="#menu3">
+              MINIVAN & TRUCK
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" data-toggle="pill" href="#men4">
+              ELECTRIFIED
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" data-toggle="pill" href="#menu5">
+              PRE-OWNED
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" data-toggle="pill" href="#menu6"> FUTURE </a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="menu1">
+            <img src="./images/accord.png" alt="" />
+          </div>
+          <div class="tab-pane fade" id="menu2">
+            <img src="./images/passport.png" alt="" />
+          </div>
+          <div class="tab-pane fade" id="menu3">
+            <img src="./images/odyssey.png" alt="" />
+          </div>
+          <div class="tab-pane fade" id="menu4">
+            <img src="./images/crv.png" alt="" />
+          </div>
+          <div class="tab-pane fade" id="menu5">
+            <img src="./images/certified.png" alt="" />
+          </div>
+          <div class="tab-pane fade" id="menu6">
+            <img src="./images/future.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="tools">
+      <div class="tools__container">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-6">
+            <div class="tools__item">
+              <i class="fas fa-tools"></i>
+              <p>Build and Price</p>
+              <button id="go-btn">GO</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-6">
+            <div class="tools__item">
+              <i class="fas fa-tag"></i>
+              <p>See Offers</p>
+              <button id="go-btn">GO</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-6">
+            <div class="tools__item">
+              <i class="fas fa-search"></i>
+              <p>Search Inventory</p>
+              <button id="go-btn">GO</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-6">
+            <div class="tools__item">
+              <i class="fas fa-calculator"></i>
+              <p>Estimate Payments</p>
+              <button id="go-btn">GO</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="explore">
+      <div class="explore__container">
+        <div class="row">
+          <div class="col-md-6 col-12">
+            <div class="explore__item left">
+              <div class="explore__content">
+                <div class="shop-btn">
+                  <span class="button">SHOP CERTIFIED</span>
+                </div>
+                <div class="explore_text">
+                  Conditions apply.<a href="#">*</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-12">
+            <div class="explore__item right">
+              <div class="explore__content">
+                <h3>How-To Videos and Guides</h3>
+                <div class="explore_text">
+                  Find owner manuals, instructional guides, how-to videos and
+                  helpful links designed to help you make the most of your
+                  Honda.
+                </div>
                 <div>
-                  <span class="campaign__text">
-                    Adventure awaits in the Ridgeline.
-                  </span>
-                </div>
-                <div class="explore-btn">
-                  <span class="button">EXPLORE</span>
+                  <span class="button">GO</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <section class="vehicles">
-        <div class="vehicles__container">
-          <h1>Our Vehicles</h1>
-          <ul class="vehical_nav nav nav-pills options">
-            <li>
-              <a class="nav-link active" data-toggle="pill" href="#menu1">
-                CARS
-              </a>
-            </li>
-            <li>
-              <a class="nav-link" data-toggle="pill" href="#menu2">
-                SUVS & CROSSOVERS
-              </a>
-            </li>
-            <li>
-              <a class="nav-link" data-toggle="pill" href="#menu3">
-                MINIVAN & TRUCK
-              </a>
-            </li>
-            <li>
-              <a class="nav-link" data-toggle="pill" href="#men4">
-                ELECTRIFIED
-              </a>
-            </li>
-            <li>
-              <a class="nav-link" data-toggle="pill" href="#menu5">
-                PRE-OWNED
-              </a>
-            </li>
-            <li>
-              <a class="nav-link" data-toggle="pill" href="#menu6"> FUTURE </a>
-            </li>
-          </ul>
-          <div class="tab-content">
-            <div class="tab-pane active" id="menu1">
-              <img src="./images/accord.png" alt="" />
-            </div>
-            <div class="tab-pane fade" id="menu2">
-              <img src="./images/passport.png" alt="" />
-            </div>
-            <div class="tab-pane fade" id="menu3">
-              <img src="./images/odyssey.png" alt="" />
-            </div>
-            <div class="tab-pane fade" id="menu4">
-              <img src="./images/crv.png" alt="" />
-            </div>
-            <div class="tab-pane fade" id="menu5">
-              <img src="./images/certified.png" alt="" />
-            </div>
-            <div class="tab-pane fade" id="menu6">
-              <img src="./images/future.png" alt="" />
-            </div>
-          </div>
+    </section>
+    <section class="discover-honda">
+      <div class="discover-honda__container container">
+        <!-- TODO-7 -->
+        <div class="discover-honda__title">
+          <h1>Discover Honda</h1>
+          <p>
+            Explore the world of Honda through our latest news, events and
+            videos.
+          </p>
         </div>
-      </section>
-      <section class="tools">
-        <div class="tools__container">
+        <div class="discover-honda__content">
           <div class="row">
-            <div class="col-lg-3 col-md-3 col-6">
-              <div class="tools__item">
-                <i class="fas fa-tools"></i>
-                <p>Build and Price</p>
-                <button id="go-btn">GO</button>
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+              <div class="discover-honda__item">
+                <div class="card">
+                  <img class="card-img-top"
+                    src="./images/Promos/Discover-Honda/Project-Courage-Homepage-Discover-Tout.jpg" alt="Card image"
+                    style="width: 100%" />
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      A Little Car Does a Lot of Good
+                    </h4>
+                    <p class="card-text">
+                      The Honda Shogo, a small electric car, is helping lift
+                      patients' spirits as they drive it to their treatments
+                      at Children's Health of Orange County.
+                    </p>
+                    <button class="button">LEARN MORE</button>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-6">
-              <div class="tools__item">
-                <i class="fas fa-tag"></i>
-                <p>See Offers</p>
-                <button id="go-btn">GO</button>
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+              <div class="discover-honda__item">
+                <div class="card">
+                  <img class="card-img-top" src="./images/Homepage/cars_accolade_Homepage-Discover-ToutA.jpg"
+                    alt="Card image" style="width: 100%" />
+                  <div class="card-body">
+                    <h4 class="card-title">Proudly Made America</h4>
+                    <p class="card-text">
+                      The Cars.com 2021 American-Made Index® highlights our
+                      commitment to building products in America with four
+                      Honda models in the top 10—more than any other
+                      automaker.*
+                    </p>
+                    <button class="button">LEARN MORE</button>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-6">
-              <div class="tools__item">
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+              <div class="discover-honda__item">
+                <div class="card">
+                  <img class="card-img-top" src="./images/Homepage/2021-KBB-Discover-Homepage-ToutA-2x.jpg"
+                    alt="Card image" style="width: 100%" />
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      Honda Awarded Best Value Brand by KBB.com for Seventh
+                      Consecutive Year
+                    </h4>
+                    <p class="card-text">
+                      This marks the consecutive year that Honda has been
+                      honored with the Best Value Brand award by Kelley Blue
+                      Book's KBB.com.* The KBB.com editors noted how
+                      consistent “reliability, resale value, and quality”
+                      contributed to the win.
+                    </p>
+                    <button class="button">LEARN MORE</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+              <div class="discover-honda__item">
+                <div class="card">
+                  <img class="card-img-top" src="./images/Vehicles/MY22-Passport-non-VLP-discover-2x.jpg"
+                    alt="Card image" style="width: 100%" />
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      Explore the Redesigned 2022 Passport
+                    </h4>
+                    <p class="card-text">
+                      A bold redesign and the introduction of the all-new
+                      TrailSport give the 2022 Passport a more commanding
+                      presence than ever.
+                    </p>
+                    <button class="button">LEARN MORE</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+              <div class="discover-honda__item">
+                <div class="card">
+                  <img class="card-img-top" src="./images/Vehicles/MY22-accord-sedan-550-2x.jpg" alt="Card image"
+                    style="width: 100%" />
+                  <div class="card-body">
+                    <h4 class="card-title">Get to know the 2022 Accord</h4>
+                    <p class="card-text">
+                      Discover everything there is to love about the 2022
+                      Accord and Accord Hybrid.
+                    </p>
+                    <button class="button">LEARN MORE</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+              <div class="discover-honda__item">
+                <div class="card">
+                  <img class="card-img-top" src="./images/Homepage/shop-discover-sensing-550x310.jpg" alt="Card image"
+                    style="width: 100%" />
+                  <div class="card-body">
+                    <h4 class="card-title">Honda Sensing®</h4>
+                    <p class="card-text">
+                      Learn more about our suite of safety and
+                      driver-assistive technologies designed to alert you to
+                      things you might miss while driving.
+                    </p>
+                    <button class="button">LEARN MORE</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="button">MORE NEWS AND EVENTS</button>
+        </div>
+      </div>
+    </section>
+    <footer class="footer wrapper">
+      <div class="footer__container">
+        <!-- TODO-8 -->
+        <hr />
+        <div class="footer__logo">
+          <img src="./images/clipart1514228.png" alt="footer-logo" />
+        </div>
+        <hr />
+        <div class="footer__search">
+          <div class="footer__search-1">
+            <p>Stay In Touch</p>
+            <p>Receive the latest news and exclusive updates.</p>
+          </div>
+          <div class="footer__search-2">
+            <div class="footer__search-2--icons">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram-square"></i>
+              <i class="fab fa-linkedin"></i>
+              <i class="fab fa-pinterest"></i>
+              <i class="fab fa-twitter-square"></i>
+              <i class="fab fa-snapchat"></i>
+              <i class="fab fa-youtube-square"></i>
+              <i class="fab fa-tiktok"></i>
+            </div>
+            <div class="footer__search-2--search">
+              <form>
+                <input class="search-form" type="text" placeholder="Search for anything Honda" />
                 <i class="fas fa-search"></i>
-                <p>Search Inventory</p>
-                <button id="go-btn">GO</button>
-              </div>
+              </form>
             </div>
-            <div class="col-lg-3 col-md-3 col-6">
-              <div class="tools__item">
-                <i class="fas fa-calculator"></i>
-                <p>Estimate Payments</p>
-                <button id="go-btn">GO</button>
-              </div>
+            <div class="footer__search-2--button">
+              <button class="button">STAY INFORMED</button>
             </div>
           </div>
         </div>
-      </section>
-      <section class="explore">
-        <div class="explore__container">
-          <div class="row">
-            <div class="col-md-6 col-12">
-              <div class="explore__item left">
-                <div class="explore__content">
-                  <div class="shop-btn">
-                    <span class="button">SHOP CERTIFIED</span>
-                  </div>
-                  <div class="explore_text">
-                    Conditions apply.<a href="#">*</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-12">
-              <div class="explore__item right">
-                <div class="explore__content">
-                  <h3>How-To Videos and Guides</h3>
-                  <div class="explore_text">
-                    Find owner manuals, instructional guides, how-to videos and
-                    helpful links designed to help you make the most of your
-                    Honda.
-                  </div>
-                  <div>
-                    <span class="button">GO</span>
-                </div>
-              </div>
-            </div>
+        <hr />
+        <div class="footer__menu">
+          <div class="footer__menu-list">
+            <h6>Vehicles</h6>
+            <ul class="menu-vehicles">
+              <li><a href="#">Civic Models</a></li>
+              <li><a href="#">Insight Hybrid</a></li>
+              <li><a href="#">Accord Models</a></li>
+              <li><a href="#">Clarity Models</a></li>
+              <li><a href="#">Hr-V Crossover</a></li>
+              <li><a href="#">CR-V Crossover</a></li>
+              <li><a href="#">Passport SUV</a></li>
+              <li><a href="#">Pilot SUV</a></li>
+              <li><a href="#">Odyssey Minivan</a></li>
+              <li><a href="#">Ridgeline Truck</a></li>
+              <li><a href="#">Future Vehicles</a></li>
+              <li><a href="#">Rugged Capability</a></li>
+              <li><a href="#">Electricfied Vehicles</a></li>
+              <li><a href="#">Honda Certified Pre-Owned</a></li>
+              <li><a href="#">All Vehicles</a></li>
+            </ul>
+          </div>
+          <div class="footer__menu-list">
+            <h6>Shopping Tools</h6>
+            <ul class="menu-shopping-tools">
+              <li><a href="#">Build & Price</a></li>
+              <li><a href="#">See Offers</a></li>
+              <li><a href="#">Search Inventory</a></li>
+              <li><a href="#">Estimate Payments</a></li>
+              <li><a href="#">Apply for Financing</a></li>
+              <li><a href="#">Trade-In Value</a></li>
+              <li><a href="#">Lease or Finance</a></li>
+            </ul>
+          </div>
+          <div class="footer__menu-list">
+            <h6>Discover Honda</h6>
+            <ul class="menu-discover-honda">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">News & Events</a></li>
+              <li><a href="#">Awards, Accolades & Ratings</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">investor Relations</a></li>
+              <li><a href="#">Corporate Social Responsibility</a></li>
+              <li><a href="#">Honda Financial Services</a></li>
+              <li><a href="#">Honda in America</a></li>
+              <li><a href="#">Honda Worldwide</a></li>
+              <li><a href="#">Honda Merchandise & Apparel</a></li>
+            </ul>
+          </div>
+          <div class="footer__menu-list">
+            <h6>Help & Support</h6>
+            <ul class="menu-help-support">
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Customer Service</a></li>
+              <li><a href="#">Mobility Assistance Program</a></li>
+              <li>
+                <a href="#">Rear Entertainment System Accessibility for Individuals
+                  with Disabilities</a>
+              </li>
+              <li><a href="#">Buyer's Guide</a></li>
+            </ul>
+          </div>
+          <div class="footer__menu-list">
+            <h6>Owners</h6>
+            <ul class="menu-owners">
+              <li><a href="#">Honda Owners Site</a></li>
+              <li><a href="#">Schedule Service</a></li>
+              <li><a href="#">Parts & Service</a></li>
+              <li><a href="#">Certified Body Shop Locator</a></li>
+              <li><a href="#">eStore</a></li>
+              <li><a href="#">Roadside Assistance</a></li>
+              <li><a href="#">Pay My Bill</a></li>
+              <li><a href="#">Radio & Navi Codes</a></li>
+              <li><a href="#">HondaLink</a></li>
+              <li><a href="#">Wifi Hotspot Data Plans</a></li>
+              <li><a href="#">Safety Recall</a></li>
+            </ul>
           </div>
         </div>
-      </section>
-      <section class="discover-honda">
-        <div class="discover-honda__container container">
-          <!-- TODO-7 -->
-          <div class="discover-honda__title">
-            <h1>Discover Honda</h1>
-            <p>
-              Explore the world of Honda through our latest news, events and
-              videos.
-            </p>
-          </div>
-          <div class="discover-honda__content">
-            <div class="row">
-              <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
-                <div class="discover-honda__item">
-                  <div class="card">
-                    <img
-                      class="card-img-top"
-                      src="./images/Promos/Discover-Honda/Project-Courage-Homepage-Discover-Tout.jpg"
-                      alt="Card image"
-                      style="width: 100%"
-                    />
-                    <div class="card-body">
-                      <h4 class="card-title">
-                        A Little Car Does a Lot of Good
-                      </h4>
-                      <p class="card-text">
-                        The Honda Shogo, a small electric car, is helping lift
-                        patients' spirits as they drive it to their treatments
-                        at Children's Health of Orange County.
-                      </p>
-                      <button class="button">LEARN MORE</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
-                <div class="discover-honda__item">
-                  <div class="card">
-                    <img
-                      class="card-img-top"
-                      src="./images/Homepage/cars_accolade_Homepage-Discover-ToutA.jpg"
-                      alt="Card image"
-                      style="width: 100%"
-                    />
-                    <div class="card-body">
-                      <h4 class="card-title">Proudly Made America</h4>
-                      <p class="card-text">
-                        The Cars.com 2021 American-Made Index® highlights our
-                        commitment to building products in America with four
-                        Honda models in the top 10—more than any other
-                        automaker.*
-                      </p>
-                      <button class="button">LEARN MORE</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
-                <div class="discover-honda__item">
-                  <div class="card">
-                    <img
-                      class="card-img-top"
-                      src="./images/Homepage/2021-KBB-Discover-Homepage-ToutA-2x.jpg"
-                      alt="Card image"
-                      style="width: 100%"
-                    />
-                    <div class="card-body">
-                      <h4 class="card-title">
-                        Honda Awarded Best Value Brand by KBB.com for Seventh
-                        Consecutive Year
-                      </h4>
-                      <p class="card-text">
-                        This marks the consecutive year that Honda has been
-                        honored with the Best Value Brand award by Kelley Blue
-                        Book's KBB.com.* The KBB.com editors noted how
-                        consistent “reliability, resale value, and quality”
-                        contributed to the win.
-                      </p>
-                      <button class="button">LEARN MORE</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
-                <div class="discover-honda__item">
-                  <div class="card">
-                    <img
-                      class="card-img-top"
-                      src="./images/Vehicles/MY22-Passport-non-VLP-discover-2x.jpg"
-                      alt="Card image"
-                      style="width: 100%"
-                    />
-                    <div class="card-body">
-                      <h4 class="card-title">
-                        Explore the Redesigned 2022 Passport
-                      </h4>
-                      <p class="card-text">
-                        A bold redesign and the introduction of the all-new
-                        TrailSport give the 2022 Passport a more commanding
-                        presence than ever.
-                      </p>
-                      <button class="button">LEARN MORE</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
-                <div class="discover-honda__item">
-                  <div class="card">
-                    <img
-                      class="card-img-top"
-                      src="./images/Vehicles/MY22-accord-sedan-550-2x.jpg"
-                      alt="Card image"
-                      style="width: 100%"
-                    />
-                    <div class="card-body">
-                      <h4 class="card-title">Get to know the 2022 Accord</h4>
-                      <p class="card-text">
-                        Discover everything there is to love about the 2022
-                        Accord and Accord Hybrid.
-                      </p>
-                      <button class="button">LEARN MORE</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
-                <div class="discover-honda__item">
-                  <div class="card">
-                    <img
-                      class="card-img-top"
-                      src="./images/Homepage/shop-discover-sensing-550x310.jpg"
-                      alt="Card image"
-                      style="width: 100%"
-                    />
-                    <div class="card-body">
-                      <h4 class="card-title">Honda Sensing®</h4>
-                      <p class="card-text">
-                        Learn more about our suite of safety and
-                        driver-assistive technologies designed to alert you to
-                        things you might miss while driving.
-                      </p>
-                      <button class="button">LEARN MORE</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
+        <div class="footer__copyright">
+          <div class="footer__copyright__content">
+            <div class="footer__copyright-info">
+              <p>
+                <a href="#">©2022 American Honda Motor Co.,</a> Inc. All
+                information contained herein applies to U.S. vehicles only.
+                For non-U.S.-distributor information go to
+                <a href="https://global.honda/">world.honda.com.</a>
+              </p>
             </div>
-            <button class="button">MORE NEWS AND EVENTS</button>
-          </div>
-        </div>
-      </section>
-      <footer class="footer wrapper">
-        <div class="footer__container">
-          <!-- TODO-8 -->
-          <hr />
-          <div class="footer__logo">
-            <img src="./images/clipart1514228.png" alt="footer-logo" />
-          </div>
-          <hr />
-          <div class="footer__search">
-            <div class="footer__search-1">
-              <p>Stay In Touch</p>
-              <p>Receive the latest news and exclusive updates.</p>
-            </div>
-            <div class="footer__search-2">
-              <div class="footer__search-2--icons">
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-instagram-square"></i>
-                <i class="fab fa-linkedin"></i>
-                <i class="fab fa-pinterest"></i>
-                <i class="fab fa-twitter-square"></i>
-                <i class="fab fa-snapchat"></i>
-                <i class="fab fa-youtube-square"></i>
-                <i class="fab fa-tiktok"></i>
-              </div>
-              <div class="footer__search-2--search">
-                <form>
-                  <input
-                    class="search-form"
-                    type="text"
-                    placeholder="Search for anything Honda"
-                  />
-                  <i class="fas fa-search"></i>
-                </form>
-              </div>
-              <div class="footer__search-2--button">
-                <button class="button">STAY INFORMED</button>
-              </div>
-            </div>
-          </div>
-          <hr />
-          <div class="footer__menu">
-            <div class="footer__menu-list">
-              <h6>Vehicles</h6>
-              <ul class="menu-vehicles">
-                <li><a href="#">Civic Models</a></li>
-                <li><a href="#">Insight Hybrid</a></li>
-                <li><a href="#">Accord Models</a></li>
-                <li><a href="#">Clarity Models</a></li>
-                <li><a href="#">Hr-V Crossover</a></li>
-                <li><a href="#">CR-V Crossover</a></li>
-                <li><a href="#">Passport SUV</a></li>
-                <li><a href="#">Pilot SUV</a></li>
-                <li><a href="#">Odyssey Minivan</a></li>
-                <li><a href="#">Ridgeline Truck</a></li>
-                <li><a href="#">Future Vehicles</a></li>
-                <li><a href="#">Rugged Capability</a></li>
-                <li><a href="#">Electricfied Vehicles</a></li>
-                <li><a href="#">Honda Certified Pre-Owned</a></li>
-                <li><a href="#">All Vehicles</a></li>
-              </ul>
-            </div>
-            <div class="footer__menu-list">
-              <h6>Shopping Tools</h6>
-              <ul class="menu-shopping-tools">
-                <li><a href="#">Build & Price</a></li>
-                <li><a href="#">See Offers</a></li>
-                <li><a href="#">Search Inventory</a></li>
-                <li><a href="#">Estimate Payments</a></li>
-                <li><a href="#">Apply for Financing</a></li>
-                <li><a href="#">Trade-In Value</a></li>
-                <li><a href="#">Lease or Finance</a></li>
-              </ul>
-            </div>
-            <div class="footer__menu-list">
-              <h6>Discover Honda</h6>
-              <ul class="menu-discover-honda">
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">News & Events</a></li>
-                <li><a href="#">Awards, Accolades & Ratings</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">investor Relations</a></li>
-                <li><a href="#">Corporate Social Responsibility</a></li>
-                <li><a href="#">Honda Financial Services</a></li>
-                <li><a href="#">Honda in America</a></li>
-                <li><a href="#">Honda Worldwide</a></li>
-                <li><a href="#">Honda Merchandise & Apparel</a></li>
-              </ul>
-            </div>
-            <div class="footer__menu-list">
-              <h6>Help & Support</h6>
-              <ul class="menu-help-support">
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Customer Service</a></li>
-                <li><a href="#">Mobility Assistance Program</a></li>
-                <li>
-                  <a href="#"
-                    >Rear Entertainment System Accessibility for Individuals
-                    with Disabilities</a
-                  >
-                </li>
-                <li><a href="#">Buyer's Guide</a></li>
-              </ul>
-            </div>
-            <div class="footer__menu-list">
-              <h6>Owners</h6>
-              <ul class="menu-owners">
-                <li><a href="#">Honda Owners Site</a></li>
-                <li><a href="#">Schedule Service</a></li>
-                <li><a href="#">Parts & Service</a></li>
-                <li><a href="#">Certified Body Shop Locator</a></li>
-                <li><a href="#">eStore</a></li>
-                <li><a href="#">Roadside Assistance</a></li>
-                <li><a href="#">Pay My Bill</a></li>
-                <li><a href="#">Radio & Navi Codes</a></li>
-                <li><a href="#">HondaLink</a></li>
-                <li><a href="#">Wifi Hotspot Data Plans</a></li>
-                <li><a href="#">Safety Recall</a></li>
+            <div class="footer__copyright-info-2">
+              <ul class="info-list">
+                <li><a href="#">Privac Policy</a></li>
+                <li><a href="#">Prop 65 INfo</a></li>
+                <li><a href="#">Vehicle Data Privacy</a></li>
+                <li><a href="#">SMS Terms</a></li>
+                <br />
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Do Not Sell My Personal Information</a></li>
+                <li><a href="#">Site Map</a></li>
               </ul>
             </div>
           </div>
-          <div class="footer__copyright">
-            <div class="footer__copyright__content">
-              <div class="footer__copyright-info">
-                <p>
-                  <a href="#">©2022 American Honda Motor Co.,</a> Inc. All
-                  information contained herein applies to U.S. vehicles only.
-                  For non-U.S.-distributor information go to
-                  <a href="https://global.honda/">world.honda.com.</a>
-                </p>
-              </div>
-              <div class="footer__copyright-info-2">
-                <ul class="info-list">
-                  <li><a href="#">Privac Policy</a></li>
-                  <li><a href="#">Prop 65 INfo</a></li>
-                  <li><a href="#">Vehicle Data Privacy</a></li>
-                  <li><a href="#">SMS Terms</a></li>
-                  <br />
-                  <li><a href="#">Terms & Conditions</a></li>
-                  <li><a href="#">Do Not Sell My Personal Information</a></li>
-                  <li><a href="#">Site Map</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="footer__brand">
-              <div class="brand__content">
-                <a href="#">
-                  <svg
-                    version="1.1"
-                    id="Layer_1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    x="0px"
-                    y="0px"
-                    width="69px"
-                    height="72px"
-                    viewBox="0 0 69 72"
-                    style="enable-background: new 0 0 69 72"
-                    xml:space="preserve"
-                  >
-                    <title>Honda</title>
-                    <g id="Footer">
-                      <g
-                        id="Footer_Large_1400px"
-                        transform="translate(-631.000000, -588.000000)"
-                      >
-                        <g
-                          id="Top_lockup"
-                          transform="translate(32.000000, 553.000000)"
-                        >
-                          <g transform="translate(599.000000, 35.000000)">
-                            <path
-                              id="Fill-3"
-                              style="fill-rule: evenodd; clip-rule: evenodd"
-                              d="M47.7,55.2h-2.3v-4.3h2.3c1.4,0,1.8,0.6,1.8,2.2
+          <div class="footer__brand" style="width: 90%; margin: 0px auto;">
+            <div class="brand__content">
+              <a href="#">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="69px" height="72px"
+                  viewBox="0 0 69 72" style="enable-background: new 0 0 69 72" xml:space="preserve">
+                  <title>Honda</title>
+                  <g id="Footer">
+                    <g id="Footer_Large_1400px" transform="translate(-631.000000, -588.000000)">
+                      <g id="Top_lockup" transform="translate(32.000000, 553.000000)">
+                        <g transform="translate(599.000000, 35.000000)">
+                          <path id="Fill-3" style="fill-rule: evenodd; clip-rule: evenodd" d="M47.7,55.2h-2.3v-4.3h2.3c1.4,0,1.8,0.6,1.8,2.2
                               C49.6,54.5,49.1,55.2,47.7,55.2 M48.2,49.5h-7v0.9l0.9,0.1c0.3,0.1,0.5,0.1,0.5,0.6v3.8c0,0.2-0.1,0.6-0.5,0.6l-0.9,0.1v0.9h7
-                              c2.5,0,4.6-1,4.6-3.5S50.8,49.5,48.2,49.5"
-                            ></path>
-                            <g
-                              id="A"
-                              transform="translate(106.882353, 72.537313)"
-                            >
-                              <polygon
-                                id="Clip-6"
-                                style="fill: none"
-                                points="-40.1,-16.1 -40.1,-23.1 -54.5,-23.1 -54.5,-16.1 					"
-                              ></polygon>
-                              <path
-                                id="Fill-5"
-                                style="fill-rule: evenodd; clip-rule: evenodd"
-                                d="M-49.6-19.4l1.4-2.1l1.6,2.1H-49.6z M-41-17.1
+                              c2.5,0,4.6-1,4.6-3.5S50.8,49.5,48.2,49.5"></path>
+                          <g id="A" transform="translate(106.882353, 72.537313)">
+                            <polygon id="Clip-6" style="fill: none"
+                              points="-40.1,-16.1 -40.1,-23.1 -54.5,-23.1 -54.5,-16.1 					"></polygon>
+                            <path id="Fill-5" style="fill-rule: evenodd; clip-rule: evenodd" d="M-49.6-19.4l1.4-2.1l1.6,2.1H-49.6z M-41-17.1
                                 c-0.5-0.1-0.6-0.4-0.8-0.6l-3.5-5c-0.3-0.4-0.4-0.5-0.8-0.5h-5.8v0.9l1.3,0.1c0.2,0,0.5,0.3,0.2,0.6l-2.6,3.9
                                 c-0.1,0.1-0.2,0.4-0.6,0.4l-1.1,0.1v0.9h4.9v-0.9l-0.9-0.1c-0.4,0-0.6-0.3-0.4-0.6l0.4-0.6h4.7l0.4,0.5
-                                c0.3,0.4-0.1,0.6-0.4,0.6l-0.9,0.1v0.9h6.6v-0.9L-41-17.1z"
-                              ></path>
-                            </g>
-                            <path
-                              id="Fill-8"
-                              style="fill-rule: evenodd; clip-rule: evenodd"
-                              d="M35.2,50.4l1,0.1c0.4,0.1,0.5,0.4,0.5,0.6v3.5l-3.9-4.9
+                                c0.3,0.4-0.1,0.6-0.4,0.6l-0.9,0.1v0.9h6.6v-0.9L-41-17.1z"></path>
+                          </g>
+                          <path id="Fill-8" style="fill-rule: evenodd; clip-rule: evenodd" d="M35.2,50.4l1,0.1c0.4,0.1,0.5,0.4,0.5,0.6v3.5l-3.9-4.9
                               c-0.1-0.2-0.4-0.3-0.7-0.3h-5v0.9l1,0.1c0.4,0.1,0.5,0.4,0.5,0.6V55c0,0.2-0.1,0.6-0.5,0.6l-1,0.1v0.9h4.7v-0.9l-1-0.1
                               c-0.4-0.1-0.5-0.4-0.5-0.6v-3.5l3.9,4.9c0.1,0.2,0.4,0.3,0.7,0.3h0.1h3.5v-5.3c0-0.2,0.1-0.6,0.5-0.6l1-0.1v-0.9h-4.7L35.2,50.4
-                              L35.2,50.4z"
-                            ></path>
-                            <g
-                              id="O"
-                              transform="translate(28.411765, 71.194030)"
-                            >
-                              <polygon
-                                id="Clip-11"
-                                style="fill: none"
-                                points="-2.1,-14 -13.6,-14 -13.6,-22.1 -2.1,-22.1 					"
-                              ></polygon>
-                              <path
-                                id="Fill-10"
-                                style="fill-rule: evenodd; clip-rule: evenodd"
-                                d="M-7.9-15.5c-1.8,0-2.6-0.8-2.6-2.6c0-1.8,0.7-2.6,2.6-2.6
+                              L35.2,50.4z"></path>
+                          <g id="O" transform="translate(28.411765, 71.194030)">
+                            <polygon id="Clip-11" style="fill: none"
+                              points="-2.1,-14 -13.6,-14 -13.6,-22.1 -2.1,-22.1 					"></polygon>
+                            <path id="Fill-10" style="fill-rule: evenodd; clip-rule: evenodd" d="M-7.9-15.5c-1.8,0-2.6-0.8-2.6-2.6c0-1.8,0.7-2.6,2.6-2.6
                                 c1.8,0,2.6,0.8,2.6,2.6C-5.3-16.3-6.1-15.5-7.9-15.5 M-7.9-22.1c-4.6,0-5.8,2.2-5.8,4c0,1.9,1.2,4,5.8,4s5.8-2.2,5.8-4
-                                C-2.1-20-3.3-22.1-7.9-22.1"
-                              ></path>
-                            </g>
-                            <path
-                              id="Fill-1"
-                              style="fill-rule: evenodd; clip-rule: evenodd"
-                              d="M8.7,50.4l1,0.1c0.4,0.1,0.5,0.4,0.5,0.6v1.1H5.7v-1.1
+                                C-2.1-20-3.3-22.1-7.9-22.1"></path>
+                          </g>
+                          <path id="Fill-1" style="fill-rule: evenodd; clip-rule: evenodd" d="M8.7,50.4l1,0.1c0.4,0.1,0.5,0.4,0.5,0.6v1.1H5.7v-1.1
                               c0-0.2,0.1-0.6,0.5-0.6l1-0.1v-0.9h-6v0.9l1,0.1c0.4,0.1,0.5,0.4,0.5,0.6v3.7c0,0.2-0.1,0.6-0.5,0.6l-1,0.1v0.9h6v-0.9l-1-0.1
                               c-0.4-0.1-0.5-0.4-0.5-0.6v-1.1h4.6v1.1c0,0.2-0.1,0.6-0.5,0.6l-1,0.1v0.9h6v-0.9l-1-0.1c-0.4-0.1-0.5-0.4-0.5-0.6v-3.7
-                              c0-0.2,0.1-0.6,0.5-0.6l1-0.1v-0.9h-6L8.7,50.4L8.7,50.4z"
-                            ></path>
-                            <g
-                              id="emblem"
-                              transform="translate(32.470588, 0.000000)"
-                            >
-                              <path
-                                id="Fill-13"
-                                style="fill-rule: evenodd; clip-rule: evenodd"
-                                d="M10.1,17.5c-0.9,3.6-1.1,5.3-1.8,8c-0.6,2.6-1.1,4.9-2,6
+                              c0-0.2,0.1-0.6,0.5-0.6l1-0.1v-0.9h-6L8.7,50.4L8.7,50.4z"></path>
+                          <g id="emblem" transform="translate(32.470588, 0.000000)">
+                            <path id="Fill-13" style="fill-rule: evenodd; clip-rule: evenodd"
+                              d="M10.1,17.5c-0.9,3.6-1.1,5.3-1.8,8c-0.6,2.6-1.1,4.9-2,6
                                 c-0.9,1.1-2,1.4-2.8,1.5C3.1,33,2.8,33,1.9,33s-1.2,0-1.6-0.1c-0.8-0.1-1.9-0.4-2.8-1.5c-0.9-1.1-1.3-3.5-2-6
                                 c-0.6-2.6-1-4.3-1.8-8c0,0-0.8,0-1.2,0.1c-0.5,0-0.9,0-1.3,0.1c0,0,0.5,7.5,0.7,10.6c0.2,3.3,0.6,8.9,1,13.2
                                 c0,0,0.7,0.1,1.8,0.1c1.1,0.1,1.7,0.2,1.7,0.2c0.5-1.8,1.1-4.5,1.8-5.6c0.6-0.9,1.4-1,1.9-1.1C1,35.1,1.7,35,1.9,35l0,0l0,0
                                 c0.3,0,0.9,0,1.7,0.1c0.5,0.1,1.3,0.1,1.9,1.1c0.7,1.1,1.3,3.7,1.8,5.6c0,0,0.5,0,1.7-0.1c1.1-0.1,1.8-0.1,1.8-0.1
-                                c0.4-4.3,0.8-9.9,1-13.2c0.2-3.2,0.7-10.6,0.7-10.6c-0.4-0.1-0.8-0.1-1.3-0.1C11,17.5,10.1,17.5,10.1,17.5"
-                              ></path>
-                              <path
-                                id="Fill-15"
-                                style="fill-rule: evenodd; clip-rule: evenodd"
-                                d="M17.6,30.3c-0.3,3.9-0.6,6.3-1.1,8
+                                c0.4-4.3,0.8-9.9,1-13.2c0.2-3.2,0.7-10.6,0.7-10.6c-0.4-0.1-0.8-0.1-1.3-0.1C11,17.5,10.1,17.5,10.1,17.5"></path>
+                            <path id="Fill-15" style="fill-rule: evenodd; clip-rule: evenodd" d="M17.6,30.3c-0.3,3.9-0.6,6.3-1.1,8
                                 c-0.4,1.5-0.9,2.5-1.7,3.2c-1.3,1.2-3.1,1.5-4,1.6c-2.2,0.4-6,0.5-8.9,0.5s-6.7-0.1-8.9-0.5c-1-0.1-2.8-0.4-4-1.6
                                 c-0.8-0.7-1.3-1.7-1.7-3.2c-0.5-1.7-0.8-4-1.1-8c-0.1-2.3-0.1-6.2,0.1-8.3c0.4-3.1,1.8-4.6,5-5.2c1.3-0.3,3.3-0.5,5.2-0.6
                                 c1.5-0.1,4-0.1,5.3-0.1s3.8,0.1,5.3,0.1c1.8,0.1,3.8,0.3,5.3,0.6c3.1,0.6,4.6,2.1,5,5.2C17.6,24.1,17.7,27.9,17.6,30.3
                                  M19.3,22c-0.5-4.9-3.6-6-6.4-6.5c-1.4-0.2-3.8-0.4-5.5-0.5c-1.3-0.1-4.6-0.2-5.6-0.2s-4.3,0.1-5.6,0.1c-1.6,0.1-4,0.3-5.5,0.6
                                 c-2.8,0.5-5.9,1.5-6.4,6.5c-0.1,1.3-0.1,3.1-0.1,5c0.1,3.1,0.3,5.3,0.4,6.7c0.1,1,0.5,4,1,5.5c0.7,2.1,1.3,2.8,2.1,3.4
                                 c1.3,1.1,3.6,1.5,4.1,1.6c2.6,0.5,7.7,0.6,9.9,0.6s7.4-0.1,9.9-0.6c0.5-0.1,2.7-0.4,4.1-1.6c0.8-0.6,1.3-1.3,2.1-3.4
-                                c0.5-1.6,0.9-4.5,1-5.5c0.1-1.5,0.4-3.5,0.4-6.7C19.4,25.1,19.4,23.4,19.3,22"
-                              ></path>
-                            </g>
+                                c0.5-1.6,0.9-4.5,1-5.5c0.1-1.5,0.4-3.5,0.4-6.7C19.4,25.1,19.4,23.4,19.3,22"></path>
                           </g>
                         </g>
                       </g>
                     </g>
-                  </svg>
-                </a>
-                <a href="#">
-                  <svg
-                    version="1.1"
-                    id="Layer_1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    x="0px"
-                    y="0px"
-                    width="89px"
-                    height="72px"
-                    viewBox="0 0 89 72"
-                    style="enable-background: new 0 0 89 72"
-                    xml:space="preserve"
-                  >
-                    <title>Acura</title>
-                    <g id="Footer">
-                      <g
-                        id="Footer_Large_1400px"
-                        transform="translate(-176.000000, -1471.000000)"
-                      >
-                        <g
-                          id="Footer_links"
-                          transform="translate(0.000000, 553.000000)"
-                        >
-                          <g
-                            id="blue-footer"
-                            transform="translate(0.000000, 734.000000)"
-                          >
-                            <g
-                              id="Group-3"
-                              transform="translate(31.974724, 160.000000)"
-                            >
-                              <g
-                                id="Acura-Logo"
-                                transform="translate(144.343717, 24.000000)"
-                              >
-                                <path
-                                  id="Shape"
-                                  d="M7.8,47h3.5l7.8,13h-3.7l-5.9-9.9l-3.1,5.2h5l1.5,2.5H5.1L3.7,60H0L7.8,47z M77.2,47h3.5l7.8,13h-3.7
+                  </g>
+                </svg>
+              </a>
+              <a href="#">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="89px" height="72px"
+                  viewBox="0 0 89 72" style="enable-background: new 0 0 89 72" xml:space="preserve">
+                  <title>Acura</title>
+                  <g id="Footer">
+                    <g id="Footer_Large_1400px" transform="translate(-176.000000, -1471.000000)">
+                      <g id="Footer_links" transform="translate(0.000000, 553.000000)">
+                        <g id="blue-footer" transform="translate(0.000000, 734.000000)">
+                          <g id="Group-3" transform="translate(31.974724, 160.000000)">
+                            <g id="Acura-Logo" transform="translate(144.343717, 24.000000)">
+                              <path id="Shape" d="M7.8,47h3.5l7.8,13h-3.7l-5.9-9.9l-3.1,5.2h5l1.5,2.5H5.1L3.7,60H0L7.8,47z M77.2,47h3.5l7.8,13h-3.7
                                   l-5.9-9.9l-3.1,5.2h5l1.5,2.5h-7.9L73.1,60h-3.7L77.2,47z M18.9,53.5v1.7c0.1,3.4,2,4.8,4.9,4.8h9.8v-2.7h-9.7
                                   c-1.6,0-1.8-1.1-1.8-2.2v-3.3c0-1,0.2-2.2,1.8-2.1h9.7V47h-9.8c-3-0.1-4.9,1.4-4.9,4.8V53.5L18.9,53.5z M56,60h-3.2V47h11.8
                                   c4.1,0,5.2,5.5,2.3,7.4c0.9,0.6,1.4,1.5,1.5,2.6c0.1,0.5,0.1,3,0.1,3h-3.1l-0.1-2.7c0-0.5-0.2-1-0.6-1.4
@@ -1079,55 +854,27 @@
                                   c-0.7,1.7-1.2,3.4-1.4,5.2c-0.3,2.3-0.8,8-0.9,10.5C32.8,37.2,30.9,34.4,30.5,29.7L30.5,29.7z M50.2,38.8
                                   c-4.5,1.5-9.5,1.5-14,0l0,0c1.8-4.6,3.8-9,6-13.4h1.9C46.5,29.8,48.5,34.3,50.2,38.8L50.2,38.8L50.2,38.8z M55.9,29.7
                                   c-0.4,4.7-2.3,7.5-5.4,9c-0.1-2.5-0.6-8.2-0.9-10.5c-0.3-1.8-0.8-3.6-1.4-5.2c-0.4-1.3-2.7-7-3.7-9.7c1.7,0.1,3.4,0.3,5.1,0.9
-                                  c1.8,0.6,3.4,1.8,4.4,3.3C56.6,21.2,56.1,27.9,55.9,29.7L55.9,29.7z"
-                                ></path>
-                              </g>
+                                  c1.8,0.6,3.4,1.8,4.4,3.3C56.6,21.2,56.1,27.9,55.9,29.7L55.9,29.7z"></path>
                             </g>
                           </g>
                         </g>
                       </g>
                     </g>
-                  </svg>
-                </a>
-                <a href="#">
-                  <svg
-                    version="1.1"
-                    id="Layer_1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    x="0px"
-                    y="0px"
-                    width="91px"
-                    height="72px"
-                    viewBox="0 0 91 72"
-                    style="enable-background: new 0 0 91 72"
-                    xml:space="preserve"
-                  >
-                    <title>Honda Powersports</title>
-                    <g id="Footer">
-                      <g
-                        id="Footer_Large_1400px"
-                        transform="translate(-340.000000, -1447.000000)"
-                      >
-                        <g
-                          id="Footer_links"
-                          transform="translate(0.000000, 553.000000)"
-                        >
-                          <g
-                            id="blue-footer"
-                            transform="translate(0.000000, 734.000000)"
-                          >
-                            <g
-                              id="Group-3"
-                              transform="translate(31.974724, 160.000000)"
-                            >
-                              <g
-                                id="Honda-Powersports"
-                                transform="translate(308.181929, 0.000000)"
-                              >
-                                <path
-                                  id="Shape"
-                                  d="M10.8,62.9l1.4,0.2c0.2,0,0.4,0.1,0.5,0.3c0.1,0.2,0.2,0.4,0.2,0.6v1.7H6.5V64c-0.1-0.4,0.2-0.8,0.6-0.9
+                  </g>
+                </svg>
+              </a>
+              <a href="#">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="91px" height="72px"
+                  viewBox="0 0 91 72" style="enable-background: new 0 0 91 72" xml:space="preserve">
+                  <title>Honda Powersports</title>
+                  <g id="Footer">
+                    <g id="Footer_Large_1400px" transform="translate(-340.000000, -1447.000000)">
+                      <g id="Footer_links" transform="translate(0.000000, 553.000000)">
+                        <g id="blue-footer" transform="translate(0.000000, 734.000000)">
+                          <g id="Group-3" transform="translate(31.974724, 160.000000)">
+                            <g id="Honda-Powersports" transform="translate(308.181929, 0.000000)">
+                              <path id="Shape" d="M10.8,62.9l1.4,0.2c0.2,0,0.4,0.1,0.5,0.3c0.1,0.2,0.2,0.4,0.2,0.6v1.7H6.5V64c-0.1-0.4,0.2-0.8,0.6-0.9
                                   l0,0l1.4-0.2v-1.4H0.5v1.4L1.8,63c0.2,0,0.4,0.1,0.5,0.3s0.2,0.4,0.2,0.6v5.3c0.1,0.4-0.2,0.8-0.6,0.9l0,0l-1.4,0.2v1.4h8.1
                                   v-1.4l-1.4-0.2c-0.2,0-0.4-0.1-0.5-0.3c-0.1-0.2-0.2-0.4-0.2-0.6l0,0v-1.6h6.3v1.6c0.1,0.4-0.2,0.8-0.6,0.9l0,0l-1.4,0.2v1.4
                                   h8.1v-1.4l-1.4-0.2c-0.2,0-0.4-0.1-0.5-0.3c-0.1-0.2-0.2-0.4-0.2-0.6l0,0V64c-0.1-0.4,0.2-0.8,0.6-0.9l0,0l1.4-0.2v-1.4h-8.1
@@ -1153,206 +900,128 @@
                                   C0.9,45,0.1,43.1,0,41c0-2.6,1.4-5,5.7-6.7L65.3,10.1z M72.3,18.7l2.9-1l2.4-0.9c1.2-0.4,2.3-0.9,3.5-1.4c0.1,0,0.2,0,0.2,0
                                   c0.1,0.1,0.1,0.2,0.1,0.2c-0.1,0.3-0.9,1.9-1.1,2.3c-0.5,1-1,1.8-1.5,2.7c-0.5,0.8-1.2,1.8-1.6,2.3c-0.7,0.8-1.4,1.5-2.3,2.1
                                   c-0.9,0.6-1.9,1-3,1.3L24.7,39.1c-0.3,0.1-0.5,0.3-0.5,0.6c0,0.3,0.2,0.6,0.5,0.7L8,44.8l-1.4-1.3c-0.4-0.4-0.7-0.9-0.7-1.5
-                                  c0-1.2,1-1.8,2.4-2.3L72.3,18.7z"
-                                ></path>
-                              </g>
+                                  c0-1.2,1-1.8,2.4-2.3L72.3,18.7z"></path>
                             </g>
                           </g>
                         </g>
                       </g>
                     </g>
-                  </svg>
-                </a>
-                <a href="#">
-                  <svg
-                    version="1.1"
-                    id="Layer_1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    x="0px"
-                    y="0px"
-                    width="143.3px"
-                    height="72px"
-                    viewBox="0 0 143.3 72"
-                    style="enable-background: new 0 0 143.3 72"
-                    xml:space="preserve"
-                  >
-                    <title>Honda Power Equipment</title>
-                    <g id="Footer">
-                      <g
-                        id="Footer_Large_1400px"
-                        transform="translate(-684.000000, -1483.000000)"
-                      >
-                        <g
-                          id="Footer_links"
-                          transform="translate(0.000000, 553.000000)"
-                        >
-                          <g
-                            id="blue-footer"
-                            transform="translate(0.000000, 734.000000)"
-                          >
-                            <g
-                              id="Group-3"
-                              transform="translate(31.974724, 160.000000)"
-                            >
-                              <g
-                                id="Honda_Power_Equipment-4"
-                                transform="translate(651.851573, 36.000000)"
-                              >
-                                <g
-                                  id="Group"
-                                  transform="translate(13.640611, 0.000000)"
-                                >
-                                  <path
-                                    id="Path"
-                                    d="M19.1,20.4l1.6,0.2c0.6,0,0.7,0.6,0.7,1v1.8h-7v-1.8c0-0.3,0.1-1,0.7-1.1l1.6-0.2v-1.5H7.6v1.6l1.6,0.2
+                  </g>
+                </svg>
+              </a>
+              <a href="#">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="143.3px" height="72px"
+                  viewBox="0 0 143.3 72" style="enable-background: new 0 0 143.3 72" xml:space="preserve">
+                  <title>Honda Power Equipment</title>
+                  <g id="Footer">
+                    <g id="Footer_Large_1400px" transform="translate(-684.000000, -1483.000000)">
+                      <g id="Footer_links" transform="translate(0.000000, 553.000000)">
+                        <g id="blue-footer" transform="translate(0.000000, 734.000000)">
+                          <g id="Group-3" transform="translate(31.974724, 160.000000)">
+                            <g id="Honda_Power_Equipment-4" transform="translate(651.851573, 36.000000)">
+                              <g id="Group" transform="translate(13.640611, 0.000000)">
+                                <path id="Path" d="M19.1,20.4l1.6,0.2c0.6,0,0.7,0.6,0.7,1v1.8h-7v-1.8c0-0.3,0.1-1,0.7-1.1l1.6-0.2v-1.5H7.6v1.6l1.6,0.2
                                     c0.7,0.1,0.7,0.6,0.7,1.1v6c0,0.3-0.1,1-0.7,1.1L7.6,29v1.6h9.1v-1.8l-1.6-0.1c-0.7-0.1-0.7-0.6-0.7-1.1v-1.8h7v1.8
                                     c0,0.3-0.1,1-0.7,1.1l-1.6,0.2v1.6h9.1v-1.7l-1.6-0.2c-0.7-0.1-0.7-0.6-0.7-1.1v-5.9c0-0.3,0.1-1,0.7-1.1l1.6-0.2v-1.5h-9.1
-                                    V20.4z"
-                                  ></path>
-                                  <path
-                                    id="Shape"
-                                    d="M80.3,18.8H69v1.6l1.4,0.1c0.5,0.1,0.8,0.3,0.8,1v6.1c0,0.3-0.1,1-0.7,1.1l-1.6,0.2v1.6h11.4
+                                    V20.4z"></path>
+                                <path id="Shape" d="M80.3,18.8H69v1.6l1.4,0.1c0.5,0.1,0.8,0.3,0.8,1v6.1c0,0.3-0.1,1-0.7,1.1l-1.6,0.2v1.6h11.4
                                     c4.1,0,7.4-1.7,7.4-5.8C87.8,20.5,84.4,18.8,80.3,18.8z M79.5,28.2h-3.9v-7.1h3.9c2.3,0,3,1.1,3,3.6
-                                    C82.5,27.1,81.8,28.2,79.5,28.2z"
-                                  ></path>
-                                  <path
-                                    d="M107,28.7c-0.7-0.1-0.9-0.5-1.2-1c-5.2-8.2-5.2-8.2-5.2-8.2c-0.4-0.6-0.6-0.7-1.3-0.7h-8.7v1.6l2.1,0.2
+                                    C82.5,27.1,81.8,28.2,79.5,28.2z"></path>
+                                <path
+                                  d="M107,28.7c-0.7-0.1-0.9-0.5-1.2-1c-5.2-8.2-5.2-8.2-5.2-8.2c-0.4-0.6-0.6-0.7-1.3-0.7h-8.7v1.6l2.1,0.2
                                     c0.3,0,0.7,0.4,0.3,1l-3.9,6.5c-0.2,0.2-0.3,0.5-0.8,0.6l-1.6,0.2v1.6h7.3v-1.7l-1.3-0.1c-0.5-0.1-0.8-0.4-0.5-0.8l0.6-1h7
-                                    l0.5,0.8c0.4,0.7-0.1,1-0.6,1.1l-1.3,0.1v1.6h10v-1.7L107,28.7z M94.2,24.8l2.2-3.6l2.3,3.6H94.2z"
-                                  ></path>
-                                  <path
-                                    d="M60.8,20.4l1.6,0.2c0.7,0.1,0.7,0.6,0.7,1.1v5.8l-6.1-8c-0.3-0.3-0.5-0.5-1.2-0.5c-0.4,0-7.9,0-7.9,0v1.6l1.6,0.2
+                                    l0.5,0.8c0.4,0.7-0.1,1-0.6,1.1l-1.3,0.1v1.6h10v-1.7L107,28.7z M94.2,24.8l2.2-3.6l2.3,3.6H94.2z">
+                                </path>
+                                <path
+                                  d="M60.8,20.4l1.6,0.2c0.7,0.1,0.7,0.6,0.7,1.1v5.8l-6.1-8c-0.3-0.3-0.5-0.5-1.2-0.5c-0.4,0-7.9,0-7.9,0v1.6l1.6,0.2
                                     c0.7,0.1,0.7,0.6,0.7,1.1v6c0,0.3-0.1,1-0.7,1.1L48,29.1v1.6h7.3v-1.9l-1.6-0.2C53,28.5,53,28,53,27.5v-5.7l6.1,8
-                                    c0.3,0.4,0.5,0.5,1.2,0.5h0.1c0.3,0,1.5,0,5.6,0v-8.8c0-0.3,0.1-1,0.7-1.1l1.6-0.2v-1.5h-7.3L60.8,20.4L60.8,20.4z"
-                                  ></path>
-                                  <path
-                                    d="M38.1,18.4c-7.4,0-9.3,3.3-9.3,6.2c0,2.9,1.9,6.1,9.3,6.1s9.3-3.3,9.3-6.1C47.6,21.7,45.6,18.4,38.1,18.4z
-                                     M38.1,28.6c-2.9,0-4.1-1.3-4.1-4s1.2-4,4.1-4s4.1,1.3,4.1,4C42.2,27.4,41.1,28.6,38.1,28.6z"
-                                  ></path>
-                                </g>
-                                <g transform="translate(0.000000, 26.470588)">
-                                  <path
-                                    d="M7.9,18.5h2.6c0.4,0,0.9,0,1.3,0.1c0.3,0.1,0.7,0.2,0.9,0.4c0.3,0.2,0.5,0.4,0.6,0.7c0.1,0.3,0.2,0.6,0.2,1.1
+                                    c0.3,0.4,0.5,0.5,1.2,0.5h0.1c0.3,0,1.5,0,5.6,0v-8.8c0-0.3,0.1-1,0.7-1.1l1.6-0.2v-1.5h-7.3L60.8,20.4L60.8,20.4z">
+                                </path>
+                                <path
+                                  d="M38.1,18.4c-7.4,0-9.3,3.3-9.3,6.2c0,2.9,1.9,6.1,9.3,6.1s9.3-3.3,9.3-6.1C47.6,21.7,45.6,18.4,38.1,18.4z
+                                     M38.1,28.6c-2.9,0-4.1-1.3-4.1-4s1.2-4,4.1-4s4.1,1.3,4.1,4C42.2,27.4,41.1,28.6,38.1,28.6z">
+                                </path>
+                              </g>
+                              <g transform="translate(0.000000, 26.470588)">
+                                <path
+                                  d="M7.9,18.5h2.6c0.4,0,0.9,0,1.3,0.1c0.3,0.1,0.7,0.2,0.9,0.4c0.3,0.2,0.5,0.4,0.6,0.7c0.1,0.3,0.2,0.6,0.2,1.1
                                     c0,0.4-0.1,0.8-0.2,1.2c-0.2,0.3-0.4,0.5-0.7,0.7c-0.3,0.2-0.6,0.3-1,0.4s-0.8,0.1-1.3,0.1H9.4v3.4H7.9V18.5z M10.4,22.1
                                     c0.2,0,0.4,0,0.6,0c0.2,0,0.4-0.1,0.6-0.2c0.2-0.1,0.3-0.2,0.4-0.3c0.1-0.1,0.1-0.3,0.1-0.6c0-0.2,0-0.4-0.1-0.6
-                                    C12,20.2,11.9,20,11.7,20c-0.2,0-0.3-0.1-0.5-0.2c-0.2,0-0.4,0-0.6,0H9.4v2.3H10.4L10.4,22.1z"
-                                  ></path>
-                                  <path
-                                    d="M15.6,22.7c0-0.6,0.1-1.3,0.3-1.8c0.2-0.5,0.5-1,0.9-1.4c0.4-0.4,0.8-0.6,1.4-0.8c0.5-0.2,1.2-0.3,1.8-0.3
+                                    C12,20.2,11.9,20,11.7,20c-0.2,0-0.3-0.1-0.5-0.2c-0.2,0-0.4,0-0.6,0H9.4v2.3H10.4L10.4,22.1z">
+                                </path>
+                                <path
+                                  d="M15.6,22.7c0-0.6,0.1-1.3,0.3-1.8c0.2-0.5,0.5-1,0.9-1.4c0.4-0.4,0.8-0.6,1.4-0.8c0.5-0.2,1.2-0.3,1.8-0.3
                                     c0.6,0,1.3,0.1,1.8,0.3c0.5,0.2,1,0.5,1.4,0.8c0.4,0.4,0.7,0.8,0.9,1.4c0.2,0.5,0.3,1.2,0.3,1.8s-0.1,1.3-0.3,1.8
                                     c-0.2,0.5-0.5,1-0.9,1.4c-0.4,0.4-0.8,0.6-1.4,0.8C21.2,26.9,20.6,27,20,27c-0.6,0-1.3-0.1-1.8-0.3c-0.5-0.2-0.9-0.5-1.4-0.8
                                     c-0.4-0.4-0.7-0.8-0.9-1.4C15.8,23.9,15.6,23.3,15.6,22.7z M17.2,22.7c0,0.4,0.1,0.8,0.2,1.2c0.1,0.3,0.3,0.7,0.5,1
                                     c0.2,0.3,0.5,0.5,0.8,0.6c0.3,0.1,0.7,0.2,1.2,0.2c0.4,0,0.8-0.1,1.2-0.2s0.6-0.3,0.9-0.6c0.2-0.3,0.4-0.6,0.5-1
                                     c0.1-0.3,0.2-0.7,0.2-1.2s-0.1-0.8-0.2-1.2c-0.1-0.3-0.3-0.6-0.5-1s-0.5-0.5-0.8-0.6s-0.7-0.2-1.2-0.2
-                                    c-0.4,0-0.8,0.1-1.2,0.2s-0.6,0.3-0.8,0.6s-0.4,0.6-0.5,1C17.2,21.8,17.2,22.2,17.2,22.7z"
-                                  ></path>
-                                  <polygon
-                                    points="26,18.5 27.6,18.5 29.2,24.6 29.2,24.6 31,18.5 32.4,18.5 34.2,24.6 34.2,24.6 35.8,18.5 37.4,18.5 35,26.8 
-                                    33.6,26.8 31.7,20.6 31.7,20.6 29.8,26.8 28.5,26.8 							"
-                                  ></polygon>
-                                  <polygon
-                                    points="39.5,18.5 44.9,18.5 44.9,19.8 40.9,19.8 40.9,21.9 44.7,21.9 44.7,23.2 40.9,23.2 40.9,25.5 45.1,25.5 
-                                    45.1,26.8 39.5,26.8 							"
-                                  ></polygon>
-                                  <path
-                                    d="M47.6,18.5h2.8c0.4,0,0.7,0,1.2,0.1c0.3,0.1,0.7,0.2,0.9,0.4c0.2,0.2,0.5,0.4,0.6,0.7c0.2,0.3,0.2,0.6,0.2,1.1
+                                    c-0.4,0-0.8,0.1-1.2,0.2s-0.6,0.3-0.8,0.6s-0.4,0.6-0.5,1C17.2,21.8,17.2,22.2,17.2,22.7z">
+                                </path>
+                                <polygon points="26,18.5 27.6,18.5 29.2,24.6 29.2,24.6 31,18.5 32.4,18.5 34.2,24.6 34.2,24.6 35.8,18.5 37.4,18.5 35,26.8 
+                                    33.6,26.8 31.7,20.6 31.7,20.6 29.8,26.8 28.5,26.8 							"></polygon>
+                                <polygon points="39.5,18.5 44.9,18.5 44.9,19.8 40.9,19.8 40.9,21.9 44.7,21.9 44.7,23.2 40.9,23.2 40.9,25.5 45.1,25.5 
+                                    45.1,26.8 39.5,26.8 							"></polygon>
+                                <path d="M47.6,18.5h2.8c0.4,0,0.7,0,1.2,0.1c0.3,0.1,0.7,0.2,0.9,0.4c0.2,0.2,0.5,0.4,0.6,0.7c0.2,0.3,0.2,0.6,0.2,1.1
                                     c0,0.6-0.2,1.1-0.5,1.5c-0.3,0.4-0.8,0.6-1.4,0.7l2.2,3.7h-1.8l-1.8-3.5h-1v3.5h-1.5V18.5z M50.2,22.1c0.2,0,0.4,0,0.6,0
                                     c0.2,0,0.4-0.1,0.5-0.2c0.2-0.1,0.3-0.2,0.4-0.3c0.1-0.2,0.2-0.3,0.2-0.6c0-0.2,0-0.4-0.1-0.5c-0.1-0.1-0.2-0.2-0.4-0.3
-                                    c-0.1-0.1-0.3-0.1-0.5-0.2s-0.4,0-0.5,0H49v2.3h1.2V22.1z"
-                                  ></path>
-                                  <polygon
-                                    points="59.7,18.5 65.2,18.5 65.2,19.8 61.2,19.8 61.2,21.9 65,21.9 65,23.2 61.2,23.2 61.2,25.5 65.4,25.5 
-                                    65.4,26.8 59.7,26.8 							"
-                                  ></polygon>
-                                  <path
-                                    d="M76.6,26.8h-4.9c-0.6,0-1.3-0.1-1.8-0.3c-0.5-0.2-0.9-0.4-1.4-0.8c-0.4-0.3-0.6-0.8-0.8-1.4
+                                    c-0.1-0.1-0.3-0.1-0.5-0.2s-0.4,0-0.5,0H49v2.3h1.2V22.1z"></path>
+                                <polygon points="59.7,18.5 65.2,18.5 65.2,19.8 61.2,19.8 61.2,21.9 65,21.9 65,23.2 61.2,23.2 61.2,25.5 65.4,25.5 
+                                    65.4,26.8 59.7,26.8 							"></polygon>
+                                <path d="M76.6,26.8h-4.9c-0.6,0-1.3-0.1-1.8-0.3c-0.5-0.2-0.9-0.4-1.4-0.8c-0.4-0.3-0.6-0.8-0.8-1.4
                                     c-0.2-0.5-0.3-1.2-0.3-1.8s0.1-1.2,0.3-1.7c0.2-0.5,0.5-1,0.9-1.4c0.4-0.4,0.8-0.6,1.4-0.8c0.5-0.2,1.2-0.3,1.8-0.3
                                     c0.6,0,1.2,0.1,1.7,0.3c0.5,0.2,0.9,0.5,1.4,0.8c0.4,0.3,0.7,0.8,0.9,1.4c0.2,0.5,0.3,1.1,0.3,1.7c0,0.4,0,0.7-0.1,1.1
                                     c-0.1,0.3-0.2,0.6-0.3,0.8c-0.1,0.2-0.3,0.4-0.4,0.6c-0.1,0.2-0.3,0.3-0.5,0.5l0,0h2v1.3H76.6z M71.8,19.7
                                     c-0.4,0-0.7,0.1-1.2,0.2c-0.3,0.1-0.6,0.3-0.8,0.6c-0.2,0.2-0.4,0.5-0.6,1c-0.1,0.3-0.2,0.7-0.2,1.2s0.1,0.8,0.2,1.2
                                     c0.1,0.3,0.3,0.6,0.5,1c0.2,0.2,0.5,0.4,0.8,0.6c0.3,0.2,0.7,0.2,1.2,0.2c0.4,0,0.7-0.1,1.2-0.2c0.3-0.1,0.6-0.3,0.8-0.6
                                     c0.2-0.2,0.4-0.5,0.5-1c0.1-0.4,0.2-0.7,0.2-1.2s-0.1-0.8-0.2-1.2c-0.1-0.3-0.3-0.6-0.5-1c-0.2-0.2-0.5-0.4-0.8-0.6
-                                    C72.5,19.8,72.1,19.7,71.8,19.7z"
-                                  ></path>
-                                  <path
-                                    d="M85.2,23.8c0,0.5-0.1,1-0.2,1.4c-0.2,0.4-0.4,0.7-0.7,1.1c-0.3,0.3-0.6,0.5-1,0.6c-0.4,0.1-0.8,0.2-1.3,0.2
+                                    C72.5,19.8,72.1,19.7,71.8,19.7z"></path>
+                                <path
+                                  d="M85.2,23.8c0,0.5-0.1,1-0.2,1.4c-0.2,0.4-0.4,0.7-0.7,1.1c-0.3,0.3-0.6,0.5-1,0.6c-0.4,0.1-0.8,0.2-1.3,0.2
                                     c-0.4,0-0.9-0.1-1.3-0.2c-0.4-0.1-0.7-0.3-1-0.6c-0.3-0.3-0.5-0.6-0.7-1.1c-0.2-0.4-0.2-0.8-0.2-1.4v-5.2h1.5v5.2
                                     c0,0.2,0,0.5,0.1,0.7s0.2,0.4,0.3,0.6c0.1,0.2,0.3,0.3,0.5,0.4c0.2,0.1,0.5,0.2,0.8,0.2c0.3,0,0.6-0.1,0.8-0.2
-                                    c0.2-0.1,0.4-0.3,0.5-0.4c0.1-0.2,0.2-0.4,0.3-0.6s0.1-0.4,0.1-0.7v-5.2h1.5V23.8L85.2,23.8z"
-                                  ></path>
-                                  <polygon
-                                    points="88,18.5 89.4,18.5 89.4,26.8 88,26.8 							"
-                                  ></polygon>
-                                  <path
-                                    d="M92.3,18.5h2.6c0.4,0,0.9,0,1.3,0.1c0.3,0.1,0.7,0.2,0.9,0.4c0.3,0.2,0.5,0.4,0.6,0.7c0.1,0.3,0.2,0.6,0.2,1.1
+                                    c0.2-0.1,0.4-0.3,0.5-0.4c0.1-0.2,0.2-0.4,0.3-0.6s0.1-0.4,0.1-0.7v-5.2h1.5V23.8L85.2,23.8z">
+                                </path>
+                                <polygon points="88,18.5 89.4,18.5 89.4,26.8 88,26.8 							"></polygon>
+                                <path
+                                  d="M92.3,18.5h2.6c0.4,0,0.9,0,1.3,0.1c0.3,0.1,0.7,0.2,0.9,0.4c0.3,0.2,0.5,0.4,0.6,0.7c0.1,0.3,0.2,0.6,0.2,1.1
                                     c0,0.4-0.1,0.8-0.2,1.2c-0.2,0.3-0.4,0.5-0.7,0.7c-0.3,0.2-0.6,0.3-1,0.4c-0.4,0.1-0.8,0.1-1.3,0.1h-1.2v3.4h-1.3V18.5z
                                      M94.8,22.1c0.2,0,0.4,0,0.6,0c0.2,0,0.4-0.1,0.6-0.2s0.3-0.2,0.4-0.3c0.1-0.1,0.1-0.3,0.1-0.6c0-0.2,0-0.4-0.1-0.6
-                                    C96.3,20.2,96.2,20,96,20c-0.2-0.1-0.3-0.1-0.5-0.2c-0.2,0-0.4,0-0.6,0h-1v2.3H94.8L94.8,22.1z"
-                                  ></path>
-                                  <polygon
-                                    points="100.3,18.5 102.6,18.5 104.7,24.4 104.7,24.4 106.8,18.5 109.1,18.5 109.1,26.8 107.7,26.8 107.7,20.1 
-                                    107.7,20.1 105.2,26.8 104.1,26.8 101.7,20.1 101.7,20.1 101.7,26.8 100.3,26.8 							"
-                                  ></polygon>
-                                  <polygon
-                                    points="112,18.5 117.4,18.5 117.4,19.8 113.5,19.8 113.5,21.9 117.2,21.9 117.2,23.2 113.5,23.2 113.5,25.5 
-                                    117.6,25.5 117.6,26.8 112,26.8 							"
-                                  ></polygon>
-                                  <polygon
-                                    points="120.1,18.5 121.9,18.5 125.7,24.7 125.7,24.7 125.7,18.5 127.2,18.5 127.2,26.8 125.3,26.8 121.4,20.4 
-                                    121.4,20.4 121.4,26.8 120,26.8 120,18.5 							"
-                                  ></polygon>
-                                  <polygon
-                                    points="131.8,19.9 129.3,19.9 129.3,18.6 135.8,18.6 135.8,19.9 133.3,19.9 133.3,26.9 131.8,26.9 							"
-                                  ></polygon>
-                                </g>
+                                    C96.3,20.2,96.2,20,96,20c-0.2-0.1-0.3-0.1-0.5-0.2c-0.2,0-0.4,0-0.6,0h-1v2.3H94.8L94.8,22.1z">
+                                </path>
+                                <polygon
+                                  points="100.3,18.5 102.6,18.5 104.7,24.4 104.7,24.4 106.8,18.5 109.1,18.5 109.1,26.8 107.7,26.8 107.7,20.1 
+                                    107.7,20.1 105.2,26.8 104.1,26.8 101.7,20.1 101.7,20.1 101.7,26.8 100.3,26.8 							">
+                                </polygon>
+                                <polygon points="112,18.5 117.4,18.5 117.4,19.8 113.5,19.8 113.5,21.9 117.2,21.9 117.2,23.2 113.5,23.2 113.5,25.5 
+                                    117.6,25.5 117.6,26.8 112,26.8 							"></polygon>
+                                <polygon points="120.1,18.5 121.9,18.5 125.7,24.7 125.7,24.7 125.7,18.5 127.2,18.5 127.2,26.8 125.3,26.8 121.4,20.4 
+                                    121.4,20.4 121.4,26.8 120,26.8 120,18.5 							"></polygon>
+                                <polygon
+                                  points="131.8,19.9 129.3,19.9 129.3,18.6 135.8,18.6 135.8,19.9 133.3,19.9 133.3,26.9 131.8,26.9 							">
+                                </polygon>
                               </g>
                             </g>
                           </g>
                         </g>
                       </g>
                     </g>
-                  </svg>
-                </a>
-                <a href="#">
-                  <svg
-                    version="1.1"
-                    id="Layer_1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    x="0px"
-                    y="0px"
-                    width="85px"
-                    height="72px"
-                    viewBox="0 0 85 72"
-                    style="enable-background: new 0 0 85 72"
-                    xml:space="preserve"
-                  >
-                    <title>Honda Jet</title>
-                    <g id="Footer">
-                      <g
-                        id="Footer_Large_1400px"
-                        transform="translate(-888.000000, -1463.000000)"
-                      >
-                        <g
-                          id="Footer_links"
-                          transform="translate(0.000000, 553.000000)"
-                        >
-                          <g
-                            id="blue-footer"
-                            transform="translate(0.000000, 734.000000)"
-                          >
-                            <g
-                              id="Group-3"
-                              transform="translate(31.974724, 160.000000)"
-                            >
-                              <g
-                                id="Honda-Jet-2"
-                                transform="translate(856.342175, 16.500000)"
-                              >
-                                <path
-                                  id="Shape"
-                                  d="M11.9,58.1c0,0,8.7-14.1,10.8-14.8l0-0.1c-0.9,0-1.7,0.2-2.5,0.7c-1.7,1-4.3,4.6-6.2,7.4H9.1
+                  </g>
+                </svg>
+              </a>
+              <a href="#">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="85px" height="72px"
+                  viewBox="0 0 85 72" style="enable-background: new 0 0 85 72" xml:space="preserve">
+                  <title>Honda Jet</title>
+                  <g id="Footer">
+                    <g id="Footer_Large_1400px" transform="translate(-888.000000, -1463.000000)">
+                      <g id="Footer_links" transform="translate(0.000000, 553.000000)">
+                        <g id="blue-footer" transform="translate(0.000000, 734.000000)">
+                          <g id="Group-3" transform="translate(31.974724, 160.000000)">
+                            <g id="Honda-Jet-2" transform="translate(856.342175, 16.500000)">
+                              <path id="Shape" d="M11.9,58.1c0,0,8.7-14.1,10.8-14.8l0-0.1c-0.9,0-1.7,0.2-2.5,0.7c-1.7,1-4.3,4.6-6.2,7.4H9.1
                                   c0.4-0.7,3.5-5.6,3.5-5.6H6.1l-0.3,0.4h3.8c0.2,0,0.6,0.1,0.3,0.6c0,0-7.4,11.5-8.8,12.8c-0.3,0.3-0.7,0.5-1.1,0.6v0.1
                                   c0.9,0,1.7-0.2,2.4-0.7c2.3-1.4,4.8-5.2,6.5-7.9h4.9c-0.6,0.9-1.2,1.9-1.7,2.7c-0.7,1.2-1.5,2.4-2.5,3.5
                                   c-0.6,0.5-1.4,0.8-2.2,0.8l-0.2,0.4h6.3l0.2-0.4l-0.7,0C11.7,58.6,11.8,58.3,11.9,58.1z M84,47.7L84,47.7
@@ -1390,109 +1059,67 @@
                                   c1.6,0,3.2-0.4,4.6-1.3c4.4-2.6,9.1-9.8,12.3-14.9h3.2L43.1,22c-3.8,5.9-11.9,18.1-14,20c-0.6,0.6-1.4,1-2.2,1.2v0.3
                                   c1.6,0,3.2-0.4,4.6-1.3c4.4-2.6,9.1-9.8,12.3-14.9c0,0,1.6-2.4,3.6-5.4H51c-1.1,1.8-2.2,3.5-3.2,5.1c-2.1,3.4-3.2,5.5-4.6,6.9
                                   c-0.8,0.8-1.9,1.2-3,1.2l-0.5,0.8h11.6l0.4-0.8l-2.3-0.1c-2.5-0.1-2.2-0.7-2.1-1.1c0,0,5.4-9.1,10.5-16.4
-                                  c6.7-9.5,8-9.7,8.6-9.9l0-0.2C65,7.2,63.3,7.6,61.9,8.5L61.9,8.5z"
-                                ></path>
-                              </g>
+                                  c6.7-9.5,8-9.7,8.6-9.9l0-0.2C65,7.2,63.3,7.6,61.9,8.5L61.9,8.5z"></path>
                             </g>
                           </g>
                         </g>
                       </g>
                     </g>
-                  </svg>
-                </a>
-                <a href="#">
-                  <svg
-                    version="1.1"
-                    id="Layer_1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    x="0px"
-                    y="0px"
-                    width="103px"
-                    height="72px"
-                    viewBox="0 0 103 72"
-                    style="enable-background: new 0 0 103 72"
-                    xml:space="preserve"
-                  >
-                    <title>Honda Engines</title>
-                    <g id="Footer">
-                      <g
-                        id="Footer_Large_1400px"
-                        transform="translate(-505.000000, -1483.000000)"
-                      >
-                        <g
-                          id="Footer_links"
-                          transform="translate(0.000000, 553.000000)"
-                        >
-                          <g
-                            id="blue-footer"
-                            transform="translate(0.000000, 734.000000)"
-                          >
-                            <g
-                              id="Group-3"
-                              transform="translate(31.974724, 160.000000)"
-                            >
-                              <g
-                                id="Honda_Engines-2"
-                                transform="translate(473.009152, 36.000000)"
-                              >
-                                <g id="Group">
-                                  <path
-                                    id="Path"
-                                    d="M12.3,20.3l1.6,0.2c0.7,0.1,0.7,0.6,0.7,1.1v1.8h-7v-1.9c0-0.3,0.1-1,0.7-1.1l1.6-0.2v-1.5H0.7v1.6
+                  </g>
+                </svg>
+              </a>
+              <a href="#">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="103px" height="72px"
+                  viewBox="0 0 103 72" style="enable-background: new 0 0 103 72" xml:space="preserve">
+                  <title>Honda Engines</title>
+                  <g id="Footer">
+                    <g id="Footer_Large_1400px" transform="translate(-505.000000, -1483.000000)">
+                      <g id="Footer_links" transform="translate(0.000000, 553.000000)">
+                        <g id="blue-footer" transform="translate(0.000000, 734.000000)">
+                          <g id="Group-3" transform="translate(31.974724, 160.000000)">
+                            <g id="Honda_Engines-2" transform="translate(473.009152, 36.000000)">
+                              <g id="Group">
+                                <path id="Path" d="M12.3,20.3l1.6,0.2c0.7,0.1,0.7,0.6,0.7,1.1v1.8h-7v-1.9c0-0.3,0.1-1,0.7-1.1l1.6-0.2v-1.5H0.7v1.6
                                     l1.6,0.2c0.5,0,0.6,0.6,0.6,1v6c0,0.3-0.1,1-0.7,1.1l-1.6,0.2v1.6h9.2v-1.7l-1.6-0.2c-0.7-0.1-0.7-0.6-0.7-1.1v-1.7h7v1.8
                                     c0,0.3-0.1,1-0.7,1.1l-1.6,0.2v1.6h9.2v-1.7l-1.6-0.2C19,28.4,19,27.8,19,27.4v-5.9c0-0.3,0.1-1,0.7-1.1l1.6-0.2v-1.5h-9.2
-                                    v1.6H12.3z"
-                                  ></path>
-                                  <path
-                                    id="Shape"
-                                    d="M73.7,18.7H62.4v1.6l1.4,0.1c0.5,0.1,0.8,0.3,0.8,1v6.1c0,0.3-0.1,1-0.7,1.1l-1.6,0.2v1.6h11.5
-                                    c4.1,0,7.5-1.7,7.5-5.8S77.9,18.7,73.7,18.7z M72.9,28.1H69V21h3.9c2.3,0,3.1,1.1,3.1,3.6C76,27,75.1,28.1,72.9,28.1z"
-                                  ></path>
-                                  <path
-                                    d="M100.6,28.6c-0.7-0.1-0.9-0.5-1.2-1c-5.3-8.2-5.3-8.2-5.3-8.2c-0.4-0.6-0.6-0.7-1.3-0.7h-8.7v1.6l2.1,0.2
+                                    v1.6H12.3z"></path>
+                                <path id="Shape"
+                                  d="M73.7,18.7H62.4v1.6l1.4,0.1c0.5,0.1,0.8,0.3,0.8,1v6.1c0,0.3-0.1,1-0.7,1.1l-1.6,0.2v1.6h11.5
+                                    c4.1,0,7.5-1.7,7.5-5.8S77.9,18.7,73.7,18.7z M72.9,28.1H69V21h3.9c2.3,0,3.1,1.1,3.1,3.6C76,27,75.1,28.1,72.9,28.1z">
+                                </path>
+                                <path
+                                  d="M100.6,28.6c-0.7-0.1-0.9-0.5-1.2-1c-5.3-8.2-5.3-8.2-5.3-8.2c-0.4-0.6-0.6-0.7-1.3-0.7h-8.7v1.6l2.1,0.2
                                     c0.3,0,0.7,0.4,0.3,1L82.7,28c-0.2,0.2-0.3,0.5-0.8,0.6l-1.6,0.2v1.6h7.4v-1.7l-1.3-0.1c-0.5-0.1-0.8-0.4-0.5-0.8l0.5-1h7
-                                    l0.5,0.8c0.4,0.7-0.1,1-0.6,1.1l-1.3,0.1v1.6h10v-1.7L100.6,28.6z M87.6,24.7l2.2-3.6l2.3,3.6H87.6z"
-                                  ></path>
-                                  <path
-                                    d="M54.2,20.3l1.6,0.2c0.7,0.1,0.7,0.6,0.7,1.1v5.8l-6.1-8c-0.3-0.3-0.5-0.5-1.2-0.5c-0.4,0-7.9,0-7.9,0v1.6l1.6,0.2
+                                    l0.5,0.8c0.4,0.7-0.1,1-0.6,1.1l-1.3,0.1v1.6h10v-1.7L100.6,28.6z M87.6,24.7l2.2-3.6l2.3,3.6H87.6z">
+                                </path>
+                                <path
+                                  d="M54.2,20.3l1.6,0.2c0.7,0.1,0.7,0.6,0.7,1.1v5.8l-6.1-8c-0.3-0.3-0.5-0.5-1.2-0.5c-0.4,0-7.9,0-7.9,0v1.6l1.6,0.2
                                     c0.7,0.1,0.7,0.6,0.7,1.1v6c0,0.3-0.1,1-0.7,1.1L41.3,29v1.6h7.4v-1.9l-1.6-0.1c-0.7-0.1-0.7-0.6-0.7-1.1v-5.8l6.1,8
-                                    c0.3,0.4,0.5,0.5,1.2,0.5h0.1c0.3,0,1.5,0,5.6,0v-8.8c0-0.3,0.1-1,0.7-1.1l1.6-0.2v-1.5h-7.4L54.2,20.3L54.2,20.3z"
-                                  ></path>
-                                  <path
-                                    d="M31.5,18.3c-7.5,0-9.4,3.3-9.4,6.1s1.9,6.1,9.4,6.1s9.4-3.3,9.4-6.1S38.9,18.3,31.5,18.3z M31.5,28.5
-                                    c-2.9,0-4.1-1.3-4.1-4s1.2-4,4.1-4s4.1,1.3,4.1,4C35.6,27.3,34.3,28.5,31.5,28.5z"
-                                  ></path>
-                                </g>
-                                <g transform="translate(23.144990, 26.470588)">
-                                  <polygon
-                                    points="0.1,18.4 5.6,18.4 5.6,19.7 1.6,19.7 1.6,21.8 5.4,21.8 5.4,23.1 1.6,23.1 1.6,25.4 5.8,25.4 5.8,26.7 
-                                    0.1,26.7 							"
-                                  ></polygon>
-                                  <polygon
-                                    points="8.3,18.4 10.2,18.4 14,24.6 14,24.6 14,18.4 15.5,18.4 15.5,26.7 13.7,26.7 9.8,20.3 9.8,20.3 9.8,26.7 
-                                    8.3,26.7 							"
-                                  ></polygon>
-                                  <path
-                                    d="M25.7,26.3c-0.4,0.2-0.8,0.3-1.4,0.4c-0.5,0.1-1.1,0.2-1.7,0.2s-1.3-0.1-1.8-0.3c-0.5-0.2-1.1-0.5-1.4-0.8
+                                    c0.3,0.4,0.5,0.5,1.2,0.5h0.1c0.3,0,1.5,0,5.6,0v-8.8c0-0.3,0.1-1,0.7-1.1l1.6-0.2v-1.5h-7.4L54.2,20.3L54.2,20.3z">
+                                </path>
+                                <path d="M31.5,18.3c-7.5,0-9.4,3.3-9.4,6.1s1.9,6.1,9.4,6.1s9.4-3.3,9.4-6.1S38.9,18.3,31.5,18.3z M31.5,28.5
+                                    c-2.9,0-4.1-1.3-4.1-4s1.2-4,4.1-4s4.1,1.3,4.1,4C35.6,27.3,34.3,28.5,31.5,28.5z">
+                                </path>
+                              </g>
+                              <g transform="translate(23.144990, 26.470588)">
+                                <polygon points="0.1,18.4 5.6,18.4 5.6,19.7 1.6,19.7 1.6,21.8 5.4,21.8 5.4,23.1 1.6,23.1 1.6,25.4 5.8,25.4 5.8,26.7 
+                                    0.1,26.7 							"></polygon>
+                                <polygon points="8.3,18.4 10.2,18.4 14,24.6 14,24.6 14,18.4 15.5,18.4 15.5,26.7 13.7,26.7 9.8,20.3 9.8,20.3 9.8,26.7 
+                                    8.3,26.7 							"></polygon>
+                                <path
+                                  d="M25.7,26.3c-0.4,0.2-0.8,0.3-1.4,0.4c-0.5,0.1-1.1,0.2-1.7,0.2s-1.3-0.1-1.8-0.3c-0.5-0.2-1.1-0.5-1.4-0.8
                                     c-0.4-0.4-0.7-0.8-0.9-1.4c-0.2-0.5-0.3-1.2-0.3-1.8s0.1-1.3,0.3-1.8s0.5-1,0.9-1.4c0.4-0.4,0.8-0.6,1.4-0.8
                                     c0.5-0.2,1.2-0.3,1.8-0.3s1.3,0.1,1.8,0.3s0.9,0.4,1.3,0.7l-1.1,1.1c-0.2-0.2-0.5-0.4-0.8-0.6c-0.4-0.2-0.7-0.2-1.3-0.2
                                     c-0.4,0-0.8,0.1-1.2,0.2c-0.3,0.1-0.6,0.3-0.9,0.6c-0.2,0.3-0.4,0.6-0.5,1c-0.1,0.3-0.2,0.7-0.2,1.2c0,0.4,0.1,0.8,0.2,1.2
-                                    c0.1,0.3,0.3,0.7,0.5,1c0.2,0.2,0.5,0.5,0.9,0.6c0.3,0.1,0.7,0.2,1.3,0.2c0.6,0,1.2-0.1,1.7-0.3V23h-1.7v-1.2h3.2v4.4H25.7z"
-                                  ></path>
-                                  <polygon
-                                    points="28.6,18.4 30.1,18.4 30.1,26.7 28.6,26.7 							"
-                                  ></polygon>
-                                  <polygon
-                                    points="33,18.4 34.9,18.4 38.7,24.6 38.7,24.6 38.7,18.4 40.2,18.4 40.2,26.7 38.3,26.7 34.4,20.3 34.4,20.3 
-                                    34.4,26.7 32.9,26.7 32.9,18.4 							"
-                                  ></polygon>
-                                  <polygon
-                                    points="43.2,18.4 48.7,18.4 48.7,19.7 44.7,19.7 44.7,21.8 48.4,21.8 48.4,23.1 44.6,23.1 44.6,25.4 48.8,25.4 
-                                    48.8,26.7 43.1,26.7 43.1,18.4 							"
-                                  ></polygon>
-                                  <path
-                                    d="M55.7,20.1c-0.1-0.2-0.4-0.4-0.6-0.5c-0.3-0.1-0.5-0.2-0.8-0.2c-0.2,0-0.3,0-0.5,0.1c-0.2,0-0.3,0.1-0.4,0.2
+                                    c0.1,0.3,0.3,0.7,0.5,1c0.2,0.2,0.5,0.5,0.9,0.6c0.3,0.1,0.7,0.2,1.3,0.2c0.6,0,1.2-0.1,1.7-0.3V23h-1.7v-1.2h3.2v4.4H25.7z">
+                                </path>
+                                <polygon points="28.6,18.4 30.1,18.4 30.1,26.7 28.6,26.7 							"></polygon>
+                                <polygon points="33,18.4 34.9,18.4 38.7,24.6 38.7,24.6 38.7,18.4 40.2,18.4 40.2,26.7 38.3,26.7 34.4,20.3 34.4,20.3 
+                                    34.4,26.7 32.9,26.7 32.9,18.4 							"></polygon>
+                                <polygon points="43.2,18.4 48.7,18.4 48.7,19.7 44.7,19.7 44.7,21.8 48.4,21.8 48.4,23.1 44.6,23.1 44.6,25.4 48.8,25.4 
+                                    48.8,26.7 43.1,26.7 43.1,18.4 							"></polygon>
+                                <path d="M55.7,20.1c-0.1-0.2-0.4-0.4-0.6-0.5c-0.3-0.1-0.5-0.2-0.8-0.2c-0.2,0-0.3,0-0.5,0.1c-0.2,0-0.3,0.1-0.4,0.2
                                     c-0.1,0.1-0.2,0.2-0.3,0.3c-0.1,0.1-0.1,0.3-0.1,0.5s0,0.3,0.1,0.5c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.2,0.5,0.2
                                     c0.2,0.1,0.4,0.1,0.6,0.2c0.2,0.1,0.5,0.2,0.8,0.3s0.5,0.2,0.7,0.4c0.2,0.2,0.4,0.4,0.5,0.6c0.1,0.3,0.2,0.6,0.2,1.1
                                     c0,0.4-0.1,0.8-0.2,1.2c-0.2,0.3-0.4,0.6-0.6,0.8c-0.3,0.2-0.6,0.4-0.9,0.5S54.2,27,53.8,27c-0.5,0-1.1-0.1-1.6-0.3
@@ -1500,56 +1127,29 @@
                                     c0.2,0,0.3-0.1,0.5-0.2c0.1-0.1,0.2-0.2,0.3-0.4c0.1-0.2,0.1-0.3,0.1-0.5c0-0.2,0-0.4-0.1-0.5c-0.1-0.1-0.2-0.3-0.4-0.4
                                     c-0.2-0.1-0.4-0.2-0.6-0.3c-0.2-0.1-0.5-0.2-0.7-0.2c-0.2-0.1-0.5-0.2-0.7-0.3c-0.2-0.1-0.4-0.2-0.6-0.4
                                     c-0.2-0.2-0.3-0.4-0.5-0.6c-0.2-0.2-0.2-0.6-0.2-1c0-0.4,0.1-0.7,0.2-1.1c0.2-0.3,0.4-0.5,0.6-0.7c0.3-0.2,0.6-0.3,0.9-0.4
-                                    s0.7-0.1,1.1-0.1c0.4,0,0.8,0.1,1.3,0.2s0.8,0.3,1.2,0.6L55.7,20.1z"
-                                  ></path>
-                                </g>
+                                    s0.7-0.1,1.1-0.1c0.4,0,0.8,0.1,1.3,0.2s0.8,0.3,1.2,0.6L55.7,20.1z"></path>
                               </g>
                             </g>
                           </g>
                         </g>
                       </g>
                     </g>
-                  </svg>
-                </a>
-                <a href="#">
-                  <svg
-                    version="1.1"
-                    id="Layer_1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    x="0px"
-                    y="0px"
-                    width="107px"
-                    height="72px"
-                    viewBox="0 0 107 72"
-                    style="enable-background: new 0 0 107 72"
-                    xml:space="preserve"
-                  >
-                    <title>Honda Marine</title>
-                    <g id="Footer">
-                      <g
-                        id="Footer_Large_1400px"
-                        transform="translate(-1047.000000, -1486.000000)"
-                      >
-                        <g
-                          id="Footer_links"
-                          transform="translate(0.000000, 553.000000)"
-                        >
-                          <g
-                            id="blue-footer"
-                            transform="translate(0.000000, 734.000000)"
-                          >
-                            <g
-                              id="Group-3"
-                              transform="translate(31.974724, 160.000000)"
-                            >
-                              <g
-                                id="Honda-Marine"
-                                transform="translate(1015.305910, 39.793988)"
-                              >
-                                <path
-                                  id="Shape"
-                                  d="M14.1,22.2l1.6,0.2c0.2,0,0.5,0.2,0.6,0.4s0.2,0.4,0.1,0.7l0,0v1.9H9.3v-1.9c-0.1-0.2,0-0.5,0.1-0.7
+                  </g>
+                </svg>
+              </a>
+              <a href="#">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="107px" height="72px"
+                  viewBox="0 0 107 72" style="enable-background: new 0 0 107 72" xml:space="preserve">
+                  <title>Honda Marine</title>
+                  <g id="Footer">
+                    <g id="Footer_Large_1400px" transform="translate(-1047.000000, -1486.000000)">
+                      <g id="Footer_links" transform="translate(0.000000, 553.000000)">
+                        <g id="blue-footer" transform="translate(0.000000, 734.000000)">
+                          <g id="Group-3" transform="translate(31.974724, 160.000000)">
+                            <g id="Honda-Marine" transform="translate(1015.305910, 39.793988)">
+                              <path id="Shape"
+                                d="M14.1,22.2l1.6,0.2c0.2,0,0.5,0.2,0.6,0.4s0.2,0.4,0.1,0.7l0,0v1.9H9.3v-1.9c-0.1-0.2,0-0.5,0.1-0.7
                                   c0.1-0.2,0.4-0.3,0.6-0.4l0,0l1.6-0.2v-1.6H2.3v1.6l1.6,0.2c0.2,0,0.5,0.2,0.6,0.4c0.1,0.2,0.2,0.4,0.1,0.7l0,0v6
                                   c0.1,0.2,0,0.5-0.1,0.7c-0.1,0.2-0.4,0.3-0.6,0.4l0,0l-1.6,0.2v1.6h9.3v-1.6L10,30.4c-0.2,0-0.5-0.2-0.6-0.4
                                   c-0.1-0.2-0.2-0.4-0.1-0.7l0,0v-1.9h7.1v1.9c0.1,0.2,0,0.5-0.1,0.7c-0.1,0.2-0.4,0.3-0.6,0.4l0,0l-1.6,0.2v1.6h9.3v-1.6
@@ -1570,109 +1170,68 @@
                                    M8,41.4v8.8H3.6v-11H16c3.8,0,5.6,1.8,5.6,5.5v5.5h-4.5v-5.9c0-2-0.9-2.9-2.9-2.9H8z M10.8,41.8v8.4h3.7V43L10.8,41.8z
                                    M56.8,46.7c1.7-0.4,3-1.9,3-3.6c0-2.1-1.8-3.8-4.6-3.8H43.1v11h4.5v-8.8H53c1.6,0,2.3,0.7,2.3,1.7c0,0.9-0.7,1.7-2.3,1.7h-4
                                   l4.9,5.5H60L56.8,46.7L56.8,46.7z M91.6,48H103v2.2H87.1v-5.5c0-3.7,1.9-5.5,5.6-5.5H103v2.2h-8.5c-2,0-2.9,0.9-2.9,2.9V48z
-                                   M92.8,43.6v2.2h9.2v-2.2H92.8z M61.8,39.2v3.9l4.8-3.9H61.8z M61.8,44.6v5.6h4.5v-9.3L61.8,44.6z"
-                                ></path>
-                              </g>
+                                   M92.8,43.6v2.2h9.2v-2.2H92.8z M61.8,39.2v3.9l4.8-3.9H61.8z M61.8,44.6v5.6h4.5v-9.3L61.8,44.6z">
+                              </path>
                             </g>
                           </g>
                         </g>
                       </g>
                     </g>
-                  </svg>
-                </a>
-                <a href="#">
-                  <svg
-                    version="1.1"
-                    id="Layer_1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    x="0px"
-                    y="0px"
-                    width="137px"
-                    height="72px"
-                    viewBox="0 0 137 72"
-                    style="enable-background: new 0 0 137 72"
-                    xml:space="preserve"
-                  >
-                    <title>Honda Racing</title>
-                    <g id="Footer">
-                      <g
-                        id="Footer_Large_1400px"
-                        transform="translate(-1229.000000, -1499.000000)"
-                      >
-                        <g
-                          id="Footer_links"
-                          transform="translate(0.000000, 553.000000)"
-                        >
-                          <g
-                            id="blue-footer"
-                            transform="translate(0.000000, 734.000000)"
-                          >
-                            <g
-                              id="Group-3"
-                              transform="translate(31.974724, 160.000000)"
-                            >
-                              <g
-                                id="Honda-Racing"
-                                transform="translate(1197.380594, 52.500000)"
-                              >
-                                <path
-                                  id="Path"
-                                  d="M108.3,36.3l2.5-8.9h-3.4c-0.6,0-1.1,0.4-1.2,0.9l-2.2,8H108.3z"
-                                ></path>
-                                <path
-                                  id="Shape"
-                                  d="M55.3,30.6c-1.1,0-2.2,0.5-2.6,1.7l-0.7,2.4c-0.3,1.1,0.9,1.7,1.7,1.7h9.3l2-7.2c0.3-1-0.6-1.7-1.4-1.7
-                                  l0,0h-7.3c-1.1,0-1.6,1.7-0.1,1.7h4.5l-0.4,1.4L55.3,30.6L55.3,30.6z M59.3,34.7h-2.9l0.6-2.4l0,0h2.9L59.3,34.7z"
-                                ></path>
-                                <path
-                                  d="M84.2,30.6c-1.1,0-2.2,0.5-2.6,1.7l-0.7,2.4c-0.3,1.1,0.9,1.7,1.7,1.7H92l2-7.2c0.3-1-0.6-1.7-1.4-1.7h-7.3
-                                  c-1.1,0-1.6,1.7-0.1,1.7h4.5l-0.4,1.4L84.2,30.6L84.2,30.6z M88.2,34.7h-2.9l0,0l0.6-2.4l0,0h2.9l0,0L88.2,34.7z"
-                                ></path>
-                                <path
-                                  d="M95.3,36.3h6.4c1.2,0,1.6-1.7,0.2-1.7h-4.1l1.5-5.5h4.1c1.2,0,1.7-1.7,0.2-1.7h-6c-1.1,0-2.2,0.5-2.6,1.7l-1.5,5.5
-                                  C93.2,35.8,94.4,36.3,95.3,36.3z"
-                                ></path>
-                                <path
-                                  d="M75.1,27.4h3l-0.8,3h-2l0,0l-0.3,1.7l0.7,4.3h4.8l-1-4.3c0.9-0.1,1.9-0.6,2.1-1.7l0.8-3c0.3-1.1-0.8-1.7-1.8-1.7h-9.4
-                                  l-3,10.6h4.4L75.1,27.4z"
-                                ></path>
-                                <path
-                                  d="M106.1,39.6c0.5,0.1,1.4,0,2,0l0,0c0.3-0.4,0.8-0.7,1.2-1c0.1-0.1,0.3-0.3,0.5-0.6h-3.2c-0.3,0.4-0.8,1-1,1.3
-                                  C105.7,39.5,105.9,39.6,106.1,39.6z"
-                                ></path>
-                                <path
-                                  d="M103,41.6c0.3,0.3,0.9,0.7,1.6,0.9l0,0c0.2-0.8,0.5-1.7,0.8-2.5c0-0.1,0.1-0.3,0.2-0.4c-0.3-0.2-0.6-0.5-0.9-0.7
-                                  c-0.3-0.3-0.6-0.6-0.8-0.9h-2.1c0.5,0.4,1.1,1,1.2,1.2c0.4,0.7-0.1,1.4-0.5,2C102.7,41.3,102.8,41.5,103,41.6z"
-                                ></path>
-                                <path
-                                  d="M7.5,32.1h1.8l-1.2,4.3h4.3l2.9-10.6h-3.3c-0.5,0-1,0.4-1.2,0.9l-1,3.5H7.9C6.8,30.2,6.4,32.1,7.5,32.1z"
-                                ></path>
-                                <path
-                                  d="M111.5,42.6c-0.6-0.1-0.6-0.1-1.2-0.1l0,0c-0.2,0.3-0.5,0.6-0.9,1.2c-0.4,0.5-0.8,1.1-1.2,1.6h3.9
-                                  c0.8-0.7,1.5-1.4,1.7-1.6c0.4-0.3,0.8-0.7,1.2-1C113.8,42.7,112.7,42.7,111.5,42.6z"
-                                ></path>
-                                <path
-                                  d="M110.5,42.1c0.2-0.3,0.4-0.7,0.6-1c0.3-0.5,0.4-1,0.8-1.4c-1.8-0.2-4.4,0.7-5.9,2.8h-0.7c-0.2,0-0.4-0.1-0.8-0.2
-                                  c-0.3,1-1.1,1.8-2,2.4h2.4c0.1-0.2,0.2-0.4,0.3-0.6c0.8-1.1,2.1-2,3.5-2C109.1,42.1,110.1,42.1,110.5,42.1z"
-                                ></path>
-                                <path
-                                  d="M112.9,38.5c-0.3,0.4-0.7,0.9-1,1.3c0.7,0.1,1.6,0.2,2.3,0.4c1,0.3,2.4,0.5,3.5,0.6c0.6-0.8,1.2-1.4,1.8-2.2
-                                  c0.3-0.2,0.5-0.4,0.8-0.6h-7.1C113.1,38.2,112.9,38.4,112.9,38.5z"
-                                ></path>
-                                <path
-                                  d="M127.3,27.4c-0.9,0-2.4,0.5-2.7,1.7l-1.6,5.3c-0.3,1.2,0.3,2,1.8,2h5l-0.3,1.1c-0.2,0.7-0.8,1-1.4,1h-3.6
-                                  c-1.5,0-1.7,1.9-0.3,1.9h6.9c1.1,0,2.2-0.7,2.5-1.9l3.1-10.9H127.3z M130.2,34.6h-3l1.7-5.5h3L130.2,34.6z"
-                                ></path>
-                                <path
-                                  d="M41.2,36.3h9.4l3-10.6h-3.4l0,0c-0.5,0-1.1,0.4-1.2,0.9l-0.3,0.9h-5.2c-1.1,0-2.3,0.5-2.6,1.7l-1.5,5.4
-                                  C39.1,35.8,40.3,36.3,41.2,36.3z M45.3,29.2h3l0,0l-1.5,5.4h-3L45.3,29.2z"
-                                ></path>
-                                <path
-                                  d="M121.4,27.4h-7.6c-1.1,0-2.1,0.5-2.5,1.7l-2.1,7.2h4.3l2-7.2h3l-2,7.2h4.3l2-7.2C123.1,28.1,122.2,27.4,121.4,27.4z"
-                                ></path>
-                                <path
-                                  d="M100.9,42.7c1.5-1.5,0.4-1.7-0.2-2.1c-0.7-0.4-2.2-0.3-2.9,0c0.2-0.1,0.5-0.5,0.7-0.7c0.2-0.2,1-1.2,1.5-2H0v6.7h95
+                  </g>
+                </svg>
+              </a>
+              <a href="#">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="137px" height="72px"
+                  viewBox="0 0 137 72" style="enable-background: new 0 0 137 72" xml:space="preserve">
+                  <title>Honda Racing</title>
+                  <g id="Footer">
+                    <g id="Footer_Large_1400px" transform="translate(-1229.000000, -1499.000000)">
+                      <g id="Footer_links" transform="translate(0.000000, 553.000000)">
+                        <g id="blue-footer" transform="translate(0.000000, 734.000000)">
+                          <g id="Group-3" transform="translate(31.974724, 160.000000)">
+                            <g id="Honda-Racing" transform="translate(1197.380594, 52.500000)">
+                              <path id="Path" d="M108.3,36.3l2.5-8.9h-3.4c-0.6,0-1.1,0.4-1.2,0.9l-2.2,8H108.3z"></path>
+                              <path id="Shape"
+                                d="M55.3,30.6c-1.1,0-2.2,0.5-2.6,1.7l-0.7,2.4c-0.3,1.1,0.9,1.7,1.7,1.7h9.3l2-7.2c0.3-1-0.6-1.7-1.4-1.7
+                                  l0,0h-7.3c-1.1,0-1.6,1.7-0.1,1.7h4.5l-0.4,1.4L55.3,30.6L55.3,30.6z M59.3,34.7h-2.9l0.6-2.4l0,0h2.9L59.3,34.7z">
+                              </path>
+                              <path
+                                d="M84.2,30.6c-1.1,0-2.2,0.5-2.6,1.7l-0.7,2.4c-0.3,1.1,0.9,1.7,1.7,1.7H92l2-7.2c0.3-1-0.6-1.7-1.4-1.7h-7.3
+                                  c-1.1,0-1.6,1.7-0.1,1.7h4.5l-0.4,1.4L84.2,30.6L84.2,30.6z M88.2,34.7h-2.9l0,0l0.6-2.4l0,0h2.9l0,0L88.2,34.7z">
+                              </path>
+                              <path d="M95.3,36.3h6.4c1.2,0,1.6-1.7,0.2-1.7h-4.1l1.5-5.5h4.1c1.2,0,1.7-1.7,0.2-1.7h-6c-1.1,0-2.2,0.5-2.6,1.7l-1.5,5.5
+                                  C93.2,35.8,94.4,36.3,95.3,36.3z"></path>
+                              <path d="M75.1,27.4h3l-0.8,3h-2l0,0l-0.3,1.7l0.7,4.3h4.8l-1-4.3c0.9-0.1,1.9-0.6,2.1-1.7l0.8-3c0.3-1.1-0.8-1.7-1.8-1.7h-9.4
+                                  l-3,10.6h4.4L75.1,27.4z"></path>
+                              <path d="M106.1,39.6c0.5,0.1,1.4,0,2,0l0,0c0.3-0.4,0.8-0.7,1.2-1c0.1-0.1,0.3-0.3,0.5-0.6h-3.2c-0.3,0.4-0.8,1-1,1.3
+                                  C105.7,39.5,105.9,39.6,106.1,39.6z"></path>
+                              <path
+                                d="M103,41.6c0.3,0.3,0.9,0.7,1.6,0.9l0,0c0.2-0.8,0.5-1.7,0.8-2.5c0-0.1,0.1-0.3,0.2-0.4c-0.3-0.2-0.6-0.5-0.9-0.7
+                                  c-0.3-0.3-0.6-0.6-0.8-0.9h-2.1c0.5,0.4,1.1,1,1.2,1.2c0.4,0.7-0.1,1.4-0.5,2C102.7,41.3,102.8,41.5,103,41.6z">
+                              </path>
+                              <path
+                                d="M7.5,32.1h1.8l-1.2,4.3h4.3l2.9-10.6h-3.3c-0.5,0-1,0.4-1.2,0.9l-1,3.5H7.9C6.8,30.2,6.4,32.1,7.5,32.1z">
+                              </path>
+                              <path d="M111.5,42.6c-0.6-0.1-0.6-0.1-1.2-0.1l0,0c-0.2,0.3-0.5,0.6-0.9,1.2c-0.4,0.5-0.8,1.1-1.2,1.6h3.9
+                                  c0.8-0.7,1.5-1.4,1.7-1.6c0.4-0.3,0.8-0.7,1.2-1C113.8,42.7,112.7,42.7,111.5,42.6z">
+                              </path>
+                              <path
+                                d="M110.5,42.1c0.2-0.3,0.4-0.7,0.6-1c0.3-0.5,0.4-1,0.8-1.4c-1.8-0.2-4.4,0.7-5.9,2.8h-0.7c-0.2,0-0.4-0.1-0.8-0.2
+                                  c-0.3,1-1.1,1.8-2,2.4h2.4c0.1-0.2,0.2-0.4,0.3-0.6c0.8-1.1,2.1-2,3.5-2C109.1,42.1,110.1,42.1,110.5,42.1z">
+                              </path>
+                              <path d="M112.9,38.5c-0.3,0.4-0.7,0.9-1,1.3c0.7,0.1,1.6,0.2,2.3,0.4c1,0.3,2.4,0.5,3.5,0.6c0.6-0.8,1.2-1.4,1.8-2.2
+                                  c0.3-0.2,0.5-0.4,0.8-0.6h-7.1C113.1,38.2,112.9,38.4,112.9,38.5z"></path>
+                              <path
+                                d="M127.3,27.4c-0.9,0-2.4,0.5-2.7,1.7l-1.6,5.3c-0.3,1.2,0.3,2,1.8,2h5l-0.3,1.1c-0.2,0.7-0.8,1-1.4,1h-3.6
+                                  c-1.5,0-1.7,1.9-0.3,1.9h6.9c1.1,0,2.2-0.7,2.5-1.9l3.1-10.9H127.3z M130.2,34.6h-3l1.7-5.5h3L130.2,34.6z">
+                              </path>
+                              <path d="M41.2,36.3h9.4l3-10.6h-3.4l0,0c-0.5,0-1.1,0.4-1.2,0.9l-0.3,0.9h-5.2c-1.1,0-2.3,0.5-2.6,1.7l-1.5,5.4
+                                  C39.1,35.8,40.3,36.3,41.2,36.3z M45.3,29.2h3l0,0l-1.5,5.4h-3L45.3,29.2z"></path>
+                              <path
+                                d="M121.4,27.4h-7.6c-1.1,0-2.1,0.5-2.5,1.7l-2.1,7.2h4.3l2-7.2h3l-2,7.2h4.3l2-7.2C123.1,28.1,122.2,27.4,121.4,27.4z">
+                              </path>
+                              <path d="M100.9,42.7c1.5-1.5,0.4-1.7-0.2-2.1c-0.7-0.4-2.2-0.3-2.9,0c0.2-0.1,0.5-0.5,0.7-0.7c0.2-0.2,1-1.2,1.5-2H0v6.7h95
                                   c0.1-0.2,0.2-0.5,0.2-0.7c0.1-0.4,0.3-0.8,0.5-1.1c-0.5-0.3-1.7-0.4-2.5-0.7c-0.4-0.2-0.4-0.2-0.7-0.3
                                   c0.2-0.3,0.3-0.4,0.5-0.6c0.3-0.5,1-1.2,1.4-1.8c0.2,0,0.5,0.1,0.7,0.2c0.5,0.2,0.9,0.2,1.5,0.5c0.2,0.1,0.9,0.4,1.1,0.6
                                   c-0.5,0.3-0.9,0.7-1.2,1.2c-0.2,0.3-0.4,0.6-0.5,1c1,0,2,0.1,2.6,0.4c0.4,0.3,0.6,0.7,0.5,1.3h2.9l0,0
@@ -1680,192 +1239,179 @@
                                   L68.7,43.8L68.7,43.8h-1.9v-2.3h-4.8l0.4-0.7h4.4v-1.9h1.9L68.7,43.8L68.7,43.8z M76.4,42.2L76.4,42.2h-4.8l0.4-0.7h3.4
                                   c0.8,0,1.3-0.4,1.3-1c0-0.5-0.6-0.9-1.3-0.9h-4.3v4.2h-1.9v-4.9h7.2c1.2,0,2.2,0.8,2.2,1.7C78.6,41.5,77.6,42.2,76.4,42.2z
                                    M84.7,43.8L84.7,43.8h-3.3l0.4-0.8H84c1.2,0,2.2-0.8,2.2-1.7c0-0.9-1-1.7-2.2-1.7h-3.1v4.2H79v-4.9h5.7
-                                  c1.9,0,3.5,1.1,3.5,2.4C88.2,42.6,86.6,43.8,84.7,43.8z"
-                                ></path>
-                                <path
-                                  d="M31,36.3l2-7.2h3l-2,7.2h4.3l2-7.2c0.3-1.1-0.6-1.7-1.5-1.7h-7.6c-1.1,0-2.1,0.5-2.5,1.7l-2,7.2H31z"
-                                ></path>
-                                <path
-                                  d="M7.4,25.8H4c-0.6,0-1.1,0.4-1.2,0.9L0,36.3h4.3L7.4,25.8z"
-                                ></path>
-                                <path
-                                  d="M16,36.3h7.2c1.1,0,2.3-0.5,2.6-1.7l1.5-5.5c0.3-1.1-0.7-1.7-1.6-1.7h-7.4c-1.1,0-2.2,0.5-2.6,1.7l-1.5,5.5
-                                  C13.9,35.8,15.1,36.3,16,36.3z M20,29.1L20,29.1H23l0,0l-1.5,5.5h-2.9L20,29.1z"
-                                ></path>
-                              </g>
+                                  c1.9,0,3.5,1.1,3.5,2.4C88.2,42.6,86.6,43.8,84.7,43.8z"></path>
+                              <path
+                                d="M31,36.3l2-7.2h3l-2,7.2h4.3l2-7.2c0.3-1.1-0.6-1.7-1.5-1.7h-7.6c-1.1,0-2.1,0.5-2.5,1.7l-2,7.2H31z">
+                              </path>
+                              <path d="M7.4,25.8H4c-0.6,0-1.1,0.4-1.2,0.9L0,36.3h4.3L7.4,25.8z"></path>
+                              <path d="M16,36.3h7.2c1.1,0,2.3-0.5,2.6-1.7l1.5-5.5c0.3-1.1-0.7-1.7-1.6-1.7h-7.4c-1.1,0-2.2,0.5-2.6,1.7l-1.5,5.5
+                                  C13.9,35.8,15.1,36.3,16,36.3z M20,29.1L20,29.1H23l0,0l-1.5,5.5h-2.9L20,29.1z"></path>
                             </g>
                           </g>
                         </g>
                       </g>
                     </g>
-                  </svg>
-                </a>
-              </div>
-            </div>
-            <div class="footer__cookie">
-              <p>
-                We use cookies to improve your experience on this site and show
-                you personalized advertising. To find out more, read our
-                <a href="#">Cookie Policy.</a>
-              </p>
+                  </g>
+                </svg>
+              </a>
             </div>
           </div>
+          <div class="footer__cookie">
+            <p>
+              We use cookies to improve your experience on this site and show
+              you personalized advertising. To find out more, read our
+              <a href="#">Cookie Policy.</a>
+            </p>
+          </div>
         </div>
-      </footer>
-      <div class="feedback">
-        <!-- TODO-9 -->
       </div>
-      <div class="back-to-top">
-        <!-- TODO-10 -->
-        <a class="backToTop cd-top text-replace js-cd-top" href="#">
-          <i class="fas fa-angle-up"></i>
-        </a>
-      </div>
+    </footer>
+    <div class="feedback">
+      <!-- TODO-9 -->
     </div>
-
-    <div class="svg-loader-placeholder" style="display: none">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-      >
-        <symbol id="Header_Honda_Logo" viewBox="0 0 313 206">
-          <path
-            d="M47.6 165.2l4.4.5c2 .2 2.2 1.9 2.2 2.9v5.2H33.9v-5.2c0-1.1.2-2.7 2.2-2.9l4.4-.5v-4.5H14.2v4.5l4.4.5c2 .2 2.2 1.9 2.2 2.9v17.1c0 1.1-.2 2.7-2.2 2.9l-4.4.5v4.4h26.3v-4.4l-4.4-.5c-2-.2-2.2-1.9-2.2-2.9v-5.2h20.3v5.2c0 1.1-.2 2.7-2.2 2.9l-4.4.5v4.4H74v-4.4l-4.4-.5c-2-.2-2.2-1.9-2.2-2.9v-17.1c0-1.1.2-2.7 2.2-2.9l4.4-.5v-4.5H47.7v4.5h-.1zM223.3 160.8h-32.5v4.5l3.9.4c1.4.2 2.3.8 2.3 2.7v17.4c0 1.1-.2 2.7-2.2 2.9l-4.4.5v4.4h32.9c11.8 0 21.5-4.7 21.5-16.4s-9.7-16.4-21.5-16.4zm-2.4 26.6h-11v-20.3h11c6.5 0 8.7 3.1 8.7 10.1 0 7.1-2.2 10.2-8.7 10.2z"
-          ></path>
-          <path
-            d="M300.1 188.7c-2.1-.2-2.7-1.6-3.4-2.6L281.6 163c-1.1-1.7-1.9-2.2-3.5-2.2h-25v4.5l6 .7c.8.1 2 1.2 1 2.8L248.9 187c-.5.7-1 1.6-2.3 1.8l-4.5.5v4.4h21v-4.5l-3.6-.4c-1.5-.2-2.4-1.2-1.6-2.5l1.7-2.7h20.2l1.5 2.3c1.3 2-.3 2.8-1.8 3l-3.7.4v4.5h28.5v-4.4l-4.2-.7zm-36.9-10.9l6.2-10.1 6.6 10.1h-12.8zM167.2 165.2l4.4.5c2 .2 2.2 1.9 2.2 2.9V185l-17.4-22.9c-.8-1.1-1.5-1.4-3.3-1.4h-22.6v4.5l4.4.5c2 .2 2.2 1.9 2.2 2.9v17.1c0 1.1-.2 2.7-2.2 2.9l-4.4.5v4.4h21v-4.4l-4.4-.5c-2-.2-2.2-1.9-2.2-2.9v-16.4l17.4 22.9c.8 1.1 1.5 1.4 3.3 1.4h16v-25c0-1.1.2-2.7 2.2-2.9l4.4-.5v-4.5h-21v4.5zM102.2 159.7c-21.4 0-26.9 9.4-26.9 17.6s5.5 17.6 26.9 17.6 26.9-9.4 26.9-17.6c0-8.3-5.5-17.6-26.9-17.6zm0 28.8c-8.3 0-11.7-3.5-11.7-11.3s3.5-11.3 11.7-11.3c8.3 0 11.7 3.5 11.7 11.3 0 7.8-3.4 11.3-11.7 11.3z"
-          ></path>
-          <g>
-            <path
-              d="M195.7 22.1c-3.6 16.2-5.1 23.6-8 35.3-2.8 11.2-5 21.7-8.8 26.7-3.8 5.1-9 6.2-12.5 6.6-1.8.2-3.1.3-7 .3s-5.2-.1-7-.3c-3.5-.4-8.6-1.5-12.5-6.6-3.8-5.1-6-15.5-8.8-26.7-2.9-11.7-4.4-19.1-8-35.3 0 0-3.6.1-5.2.3-2.2.2-3.9.3-5.7.6 0 0 2.1 33.2 3 47.3 1 14.8 2.7 39.8 4.4 58.6 0 0 3 .5 8.1.8 5.3.3 7.7.3 7.7.3 2.2-8.3 4.9-19.8 7.9-24.7 2.5-4 6.3-4.4 8.5-4.7 3.4-.5 6.3-.5 7.6-.5 1.3 0 4.2 0 7.6.5 2.2.3 6 .7 8.5 4.7 3.1 4.9 5.8 16.4 7.9 24.7 0 0 2.4 0 7.7-.3 5-.3 8.1-.8 8.1-.8 1.6-18.8 3.4-43.8 4.4-58.6.9-14.1 3-47.3 3-47.3-1.8-.2-3.5-.4-5.7-.6-1.6-.2-5.2-.3-5.2-.3z"
-            ></path>
-            <path
-              d="M237.6 41.7c-2.1-21.1-16.2-25.6-28.6-27.6-6.2-1-17.3-1.9-24.4-2.2-6.2-.4-20.8-.6-25.2-.6-4.3 0-19 .2-25.2.6-7.1.3-18.2 1.2-24.4 2.2-12.4 2.1-26.4 6.5-28.6 27.6-.6 5.8-.8 13.3-.6 21.3.2 13.4 1.3 22.4 2 28.7.4 4.3 2.2 17.2 4.5 23.9 3.2 9.2 6 11.8 9.4 14.6 6.1 5 16.2 6.5 18.3 6.9 11.4 2 34.4 2.4 44.6 2.4s33.2-.4 44.6-2.4c2.1-.4 12.2-1.9 18.3-6.9 3.3-2.7 6.2-5.4 9.4-14.6 2.3-6.7 4.1-19.6 4.5-23.9.7-6.3 1.8-15.3 2-28.7.2-8.1 0-15.6-.6-21.3zm-7.7 35.4c-1.2 16.9-2.7 27-4.9 34.3-1.9 6.4-4.2 10.7-7.6 13.8-5.7 5.1-13.5 6.3-18.1 6.9-9.9 1.5-26.7 2-39.8 2s-29.9-.5-39.8-2c-4.6-.7-12.4-1.8-18.1-6.9-3.4-3.1-5.7-7.4-7.6-13.8-2.1-7.3-3.6-17.4-4.9-34.3-.8-10.2-.6-26.6.5-35.5 1.7-13.2 8.2-19.8 22.3-22.3 6.6-1.2 15.4-2 23.7-2.4 6.7-.5 17.7-.7 23.9-.6 6.2-.1 17.2.2 23.9.6 8.4.4 17.2 1.2 23.7 2.4 14 2.5 20.6 9.1 22.3 22.3 1.1 8.9 1.2 25.4.5 35.5z"
-            ></path>
-          </g>
-        </symbol>
-        <symbol id="hero-controls-play" viewBox="0 0 16 20">
-          <path d="M0 0v20l16-10L0 0z" fill="#fff"></path>
-        </symbol>
-      </svg>
+    <div class="back-to-top">
+      <!-- TODO-10 -->
+      <a class="backToTop cd-top text-replace js-cd-top" href="#">
+        <i class="fas fa-angle-up"></i>
+      </a>
     </div>
+  </div>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
-      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
-      crossorigin="anonymous"
-    ></script>
+  <div class="svg-loader-placeholder" style="display: none">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <symbol id="Header_Honda_Logo" viewBox="0 0 313 206">
+        <path
+          d="M47.6 165.2l4.4.5c2 .2 2.2 1.9 2.2 2.9v5.2H33.9v-5.2c0-1.1.2-2.7 2.2-2.9l4.4-.5v-4.5H14.2v4.5l4.4.5c2 .2 2.2 1.9 2.2 2.9v17.1c0 1.1-.2 2.7-2.2 2.9l-4.4.5v4.4h26.3v-4.4l-4.4-.5c-2-.2-2.2-1.9-2.2-2.9v-5.2h20.3v5.2c0 1.1-.2 2.7-2.2 2.9l-4.4.5v4.4H74v-4.4l-4.4-.5c-2-.2-2.2-1.9-2.2-2.9v-17.1c0-1.1.2-2.7 2.2-2.9l4.4-.5v-4.5H47.7v4.5h-.1zM223.3 160.8h-32.5v4.5l3.9.4c1.4.2 2.3.8 2.3 2.7v17.4c0 1.1-.2 2.7-2.2 2.9l-4.4.5v4.4h32.9c11.8 0 21.5-4.7 21.5-16.4s-9.7-16.4-21.5-16.4zm-2.4 26.6h-11v-20.3h11c6.5 0 8.7 3.1 8.7 10.1 0 7.1-2.2 10.2-8.7 10.2z">
+        </path>
+        <path
+          d="M300.1 188.7c-2.1-.2-2.7-1.6-3.4-2.6L281.6 163c-1.1-1.7-1.9-2.2-3.5-2.2h-25v4.5l6 .7c.8.1 2 1.2 1 2.8L248.9 187c-.5.7-1 1.6-2.3 1.8l-4.5.5v4.4h21v-4.5l-3.6-.4c-1.5-.2-2.4-1.2-1.6-2.5l1.7-2.7h20.2l1.5 2.3c1.3 2-.3 2.8-1.8 3l-3.7.4v4.5h28.5v-4.4l-4.2-.7zm-36.9-10.9l6.2-10.1 6.6 10.1h-12.8zM167.2 165.2l4.4.5c2 .2 2.2 1.9 2.2 2.9V185l-17.4-22.9c-.8-1.1-1.5-1.4-3.3-1.4h-22.6v4.5l4.4.5c2 .2 2.2 1.9 2.2 2.9v17.1c0 1.1-.2 2.7-2.2 2.9l-4.4.5v4.4h21v-4.4l-4.4-.5c-2-.2-2.2-1.9-2.2-2.9v-16.4l17.4 22.9c.8 1.1 1.5 1.4 3.3 1.4h16v-25c0-1.1.2-2.7 2.2-2.9l4.4-.5v-4.5h-21v4.5zM102.2 159.7c-21.4 0-26.9 9.4-26.9 17.6s5.5 17.6 26.9 17.6 26.9-9.4 26.9-17.6c0-8.3-5.5-17.6-26.9-17.6zm0 28.8c-8.3 0-11.7-3.5-11.7-11.3s3.5-11.3 11.7-11.3c8.3 0 11.7 3.5 11.7 11.3 0 7.8-3.4 11.3-11.7 11.3z">
+        </path>
+        <g>
+          <path
+            d="M195.7 22.1c-3.6 16.2-5.1 23.6-8 35.3-2.8 11.2-5 21.7-8.8 26.7-3.8 5.1-9 6.2-12.5 6.6-1.8.2-3.1.3-7 .3s-5.2-.1-7-.3c-3.5-.4-8.6-1.5-12.5-6.6-3.8-5.1-6-15.5-8.8-26.7-2.9-11.7-4.4-19.1-8-35.3 0 0-3.6.1-5.2.3-2.2.2-3.9.3-5.7.6 0 0 2.1 33.2 3 47.3 1 14.8 2.7 39.8 4.4 58.6 0 0 3 .5 8.1.8 5.3.3 7.7.3 7.7.3 2.2-8.3 4.9-19.8 7.9-24.7 2.5-4 6.3-4.4 8.5-4.7 3.4-.5 6.3-.5 7.6-.5 1.3 0 4.2 0 7.6.5 2.2.3 6 .7 8.5 4.7 3.1 4.9 5.8 16.4 7.9 24.7 0 0 2.4 0 7.7-.3 5-.3 8.1-.8 8.1-.8 1.6-18.8 3.4-43.8 4.4-58.6.9-14.1 3-47.3 3-47.3-1.8-.2-3.5-.4-5.7-.6-1.6-.2-5.2-.3-5.2-.3z">
+          </path>
+          <path
+            d="M237.6 41.7c-2.1-21.1-16.2-25.6-28.6-27.6-6.2-1-17.3-1.9-24.4-2.2-6.2-.4-20.8-.6-25.2-.6-4.3 0-19 .2-25.2.6-7.1.3-18.2 1.2-24.4 2.2-12.4 2.1-26.4 6.5-28.6 27.6-.6 5.8-.8 13.3-.6 21.3.2 13.4 1.3 22.4 2 28.7.4 4.3 2.2 17.2 4.5 23.9 3.2 9.2 6 11.8 9.4 14.6 6.1 5 16.2 6.5 18.3 6.9 11.4 2 34.4 2.4 44.6 2.4s33.2-.4 44.6-2.4c2.1-.4 12.2-1.9 18.3-6.9 3.3-2.7 6.2-5.4 9.4-14.6 2.3-6.7 4.1-19.6 4.5-23.9.7-6.3 1.8-15.3 2-28.7.2-8.1 0-15.6-.6-21.3zm-7.7 35.4c-1.2 16.9-2.7 27-4.9 34.3-1.9 6.4-4.2 10.7-7.6 13.8-5.7 5.1-13.5 6.3-18.1 6.9-9.9 1.5-26.7 2-39.8 2s-29.9-.5-39.8-2c-4.6-.7-12.4-1.8-18.1-6.9-3.4-3.1-5.7-7.4-7.6-13.8-2.1-7.3-3.6-17.4-4.9-34.3-.8-10.2-.6-26.6.5-35.5 1.7-13.2 8.2-19.8 22.3-22.3 6.6-1.2 15.4-2 23.7-2.4 6.7-.5 17.7-.7 23.9-.6 6.2-.1 17.2.2 23.9.6 8.4.4 17.2 1.2 23.7 2.4 14 2.5 20.6 9.1 22.3 22.3 1.1 8.9 1.2 25.4.5 35.5z">
+          </path>
+        </g>
+      </symbol>
+      <symbol id="hero-controls-play" viewBox="0 0 16 20">
+        <path d="M0 0v20l16-10L0 0z" fill="#fff"></path>
+      </symbol>
+    </svg>
+  </div>
 
-    <script>
-      $(document).ready(function () {
-        $(window).on("resize", function () {
-          if ($(window).width() > 991.5) {
-            $("#collapsibleNavbar").removeClass("show");
-          }
-        });
-      });
-    </script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+    crossorigin="anonymous"></script>
 
-    <script>
-      $(document).ready(function () {
-        $(window).on("resize", function () {
-          if ($(window).width() > 991.5) {
-            $("#collapsibleNavbar").removeClass("show");
-          }
-        });
-      });
-    </script>
-
-    <!-- Swiper Carousel -->
-    <script src="./libs/swiper/swiper.min.js"></script>
-    <script>
-      const swiper = new Swiper(".swiper", {
-        // Optional parameters
-        direction: "horizontal",
-        // loop: true,
-        autoplay: true,
-
-        // If we need pagination
-        pagination: {
-          el: ".swiper-pagination",
-        },
-
-        speed: 1000,
-        // Navigation arrows
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-
-        // And if we need scrollbar
-        // scrollbar: {
-        //   el: ".swiper-scrollbar",
-        // },
-      });
-    </script>
-
-    <!-- WowJS  -->
-    <script src="./libs/wowjs/wow.min.js"></script>
-    <script>
-      new WOW().init();
-    </script>
-
-    <script>
-      var sliderElement = document.querySelector(".personalization-card__list"),
-        sliderSlides = sliderElement.querySelectorAll(
-          ".personalization-card__item"
-        ).length,
-        currentSliderScrollPos = 0,
-        slideWidth = 200,
-        slideMaxWidth = sliderSlides * slideWidth;
-
-      $("#personalization-pagination-prev").click(function () {
-        // Calculate the new scroll position for the slider
-        var newSliderScrollPos = currentSliderScrollPos - slideWidth;
-
-        // If the new calculated scroll position exceedes the sliders maximum range ...
-        if (newSliderScrollPos < 0) {
-          // ... do nothing
-          return;
+  <script>
+    $(document).ready(function () {
+      $(window).on("resize", function () {
+        if ($(window).width() > 991.5) {
+          $("#collapsibleNavbar").removeClass("show");
         }
-
-        // Update the current slider scroll position
-        currentSliderScrollPos = newSliderScrollPos;
-
-        // Scroll to the previous slide
-        sliderElement.scrollTo(newSliderScrollPos, 0);
       });
+    });
+  </script>
 
-      $("#personalization-pagination-next").click(function () {
-        // Calculate the new scroll position for the slider
-        var newSliderScrollPos = currentSliderScrollPos + slideWidth;
-
-        // If the new calculated scroll position exceedes the sliders maximum range ...
-        if (newSliderScrollPos >= slideMaxWidth) {
-          // ... do nothing
-          return;
+  <script>
+    $(document).ready(function () {
+      $(window).on("resize", function () {
+        if ($(window).width() > 991.5) {
+          $("#collapsibleNavbar").removeClass("show");
         }
-
-        // Update the current slider scroll position
-        currentSliderScrollPos = newSliderScrollPos;
-
-        // Scroll to the next slide
-        sliderElement.scrollTo(newSliderScrollPos, 0);
       });
-    </script>
+    });
+  </script>
 
-    <!-- back-to-top -->
-    <script src="./libs/back-to-top/util.js"></script>
-    <script src="./libs/back-to-top/main.js"></script>
-  </body>
+  <!-- Swiper Carousel -->
+  <script src="./libs/swiper/swiper.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      // Optional parameters
+      direction: "horizontal",
+      // loop: true,
+      autoplay: true,
+
+      // If we need pagination
+      pagination: {
+        el: ".swiper-pagination",
+      },
+
+      speed: 1000,
+      // Navigation arrows
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+
+      // And if we need scrollbar
+      // scrollbar: {
+      //   el: ".swiper-scrollbar",
+      // },
+    });
+  </script>
+
+  <!-- WowJS  -->
+  <script src="./libs/wowjs/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+
+  <script>
+    var sliderElement = document.querySelector(".personalization-card__list"),
+      sliderSlides = sliderElement.querySelectorAll(
+        ".personalization-card__item"
+      ).length,
+      currentSliderScrollPos = 0,
+      slideWidth = 200,
+      slideMaxWidth = sliderSlides * slideWidth;
+
+    $("#personalization-pagination-prev").click(function () {
+      // Calculate the new scroll position for the slider
+      var newSliderScrollPos = currentSliderScrollPos - slideWidth;
+
+      // If the new calculated scroll position exceedes the sliders maximum range ...
+      if (newSliderScrollPos < 0) {
+        // ... do nothing
+        return;
+      }
+
+      // Update the current slider scroll position
+      currentSliderScrollPos = newSliderScrollPos;
+
+      // Scroll to the previous slide
+      sliderElement.scrollTo(newSliderScrollPos, 0);
+    });
+
+    $("#personalization-pagination-next").click(function () {
+      // Calculate the new scroll position for the slider
+      var newSliderScrollPos = currentSliderScrollPos + slideWidth;
+
+      // If the new calculated scroll position exceedes the sliders maximum range ...
+      if (newSliderScrollPos >= slideMaxWidth) {
+        // ... do nothing
+        return;
+      }
+
+      // Update the current slider scroll position
+      currentSliderScrollPos = newSliderScrollPos;
+
+      // Scroll to the next slide
+      sliderElement.scrollTo(newSliderScrollPos, 0);
+    });
+  </script>
+
+  <!-- back-to-top -->
+  <script src="./libs/back-to-top/util.js"></script>
+  <script src="./libs/back-to-top/main.js"></script>
+</body>
+
 </html>
