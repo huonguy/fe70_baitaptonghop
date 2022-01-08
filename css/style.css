@@ -1158,6 +1158,7 @@ html {
 .footer .footer__container hr {
   width: 97%;
   border: 3px solid #007cc0;
+  background-color: #007cc0;
 }
 .footer .footer__container hr:nth-child(3) {
   margin-bottom: 2.2rem;
@@ -1409,8 +1410,10 @@ html {
 .footer .footer__container .footer__copyright .footer__copyright__content .footer__copyright-info-2 .info-list a {
   color: white;
 }
-.footer .footer__container .footer__copyright .footer__copyright__content .footer__copyright-info-2 .info-list li:nth-child(2) a::before, .footer .footer__container .footer__copyright .footer__copyright__content .footer__copyright-info-2 .info-list li:nth-child(2) a::after,
-.footer .footer__container .footer__copyright .footer__copyright__content .footer__copyright-info-2 .info-list li:nth-child(3) a::after, .footer .footer__container .footer__copyright .footer__copyright__content .footer__copyright-info-2 .info-list li:nth-child(7) a::before,
+.footer .footer__container .footer__copyright .footer__copyright__content .footer__copyright-info-2 .info-list li:nth-child(2) a::before,
+.footer .footer__container .footer__copyright .footer__copyright__content .footer__copyright-info-2 .info-list li:nth-child(2) a::after,
+.footer .footer__container .footer__copyright .footer__copyright__content .footer__copyright-info-2 .info-list li:nth-child(3) a::after,
+.footer .footer__container .footer__copyright .footer__copyright__content .footer__copyright-info-2 .info-list li:nth-child(7) a::before,
 .footer .footer__container .footer__copyright .footer__copyright__content .footer__copyright-info-2 .info-list li:nth-child(7) a::after {
   content: "|";
   margin: 0px 8px;
@@ -1446,7 +1449,6 @@ html {
 .footer .footer__container .footer__copyright .footer__brand .brand__content {
   display: flex;
   justify-content: space-between;
-  width: 80%;
   margin: 0px auto;
   padding: 6rem 0;
 }
@@ -1529,6 +1531,15 @@ html {
   .footer .footer__container .footer__copyright .footer__brand .brand__content img:nth-child(8) {
     display: none;
   }
+}
+.footer .footer__container .footer__copyright .footer__brand .brand__content svg {
+  fill: #fff;
+  height: 6rem;
+  left: 61%;
+  max-width: 85%;
+  position: relative;
+  transform: translateX(-50%);
+  width: 14rem;
 }
 .footer .footer__container .footer__copyright .footer__cookie {
   color: white;
