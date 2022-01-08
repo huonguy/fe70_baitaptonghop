@@ -37,7 +37,7 @@
 
       h2 {
         font-size: 42px;
-        color: #00324f;
+        color: $primary-dark;
         margin-bottom: 5px;
         letter-spacing: 0.01rem;
         line-height: 6.4rem;
@@ -45,7 +45,7 @@
 
       h3 {
         font-size: 16px;
-        color: #00324f;
+        color: $primary-dark;
         line-height: normal;
       }
     }
@@ -133,12 +133,12 @@
                 font-size: 1.6rem;
                 font-style: italic;
                 font-weight: bold;
-                color: #00324f;
+                color: $primary-dark;
               }
               .cost-info {
                 line-height: 1.8rem;
                 font-size: 1.4rem;
-                color: #00324f;
+                color: $primary-dark;
                 white-space: nowrap;
               }
             }
@@ -152,23 +152,19 @@
 
             a {
               padding: 0.6rem 1.3rem;
-              color: #007cc0;
-              font-size: 1.2rem;
-              font-weight: bold;
+              color: $primary-main;
               margin: 5px;
-              border-radius: 1.95rem;
-              display: inline-block;
-              line-height: normal;
-              text-align: center;
-              border: 2px solid #007cc0;
               text-decoration: none;
+              height: unset;
+              line-height: unset;
+              background-color: #f6f6f6;
 
               &:nth-child(1) {
                 margin-right: 15px;
               }
 
               &:hover {
-                background-color: #007cc0;
+                background-color: $primary-main;
                 color: #fff;
               }
             }
@@ -233,7 +229,7 @@
         border-radius: 100%;
 
         &.active {
-          background: #007cc0;
+          background: $primary-main;
           opacity: 1;
         }
       }
